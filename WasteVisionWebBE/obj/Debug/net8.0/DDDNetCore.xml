@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DDDNetCore</name>
+    </assembly>
+    <members>
+        <member name="T:DDDSample1.Configuration.ApiConstants">
+            <summary>
+            Provides constant values used throughout the API application.
+            </summary>
+        </member>
+        <member name="F:DDDSample1.Configuration.ApiConstants.CookieName">
+            <summary>
+            The name of the authentication cookie.
+            </summary>
+        </member>
+        <member name="F:DDDSample1.Configuration.ApiConstants.SwaggerTitle">
+            <summary>
+            The title for the Swagger API documentation.
+            </summary>
+        </member>
+        <member name="F:DDDSample1.Configuration.ApiConstants.SwaggerVersion">
+            <summary>
+            The version for the Swagger API documentation.
+            </summary>
+        </member>
+        <member name="T:DDDSample1.Configuration.DependencyInjection.InfrastructureExtensions">
+            <summary>
+            Provides extension methods for <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection"/>
+            to register infrastructure-specific services.
+            </summary>
+        </member>
+        <member name="M:DDDSample1.Configuration.DependencyInjection.InfrastructureExtensions.AddInfrastructure(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Adds infrastructure-specific services to the specified <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection"/>.
+            This includes configuring the DbContext with MySQL, HTTP context accessor,
+            and MVC controllers.
+            </summary>
+            <param name="services">The <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection"/> to add services to.</param>
+            <param name="configuration">The application configuration.</param>
+            <returns>The <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection"/> so that additional calls can be chained.</returns>
+        </member>
+        <member name="T:DDDSample1.Configuration.DependencyInjection.SecurityExtensions">
+            <summary>
+            Provides extension methods for <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection"/>
+            to configure security-related services, including authentication and authorization.
+            </summary>
+        </member>
+        <member name="M:DDDSample1.Configuration.DependencyInjection.SecurityExtensions.AddSecurityServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Adds and configures security services, including authentication (Cookie and OpenID Connect)
+            and authorization policies.
+            </summary>
+            <param name="services">The <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection"/> to add security services to.</param>
+            <param name="configuration">The application configuration, used for Keycloak settings.</param>
+            <returns>The <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection"/> so that additional calls can be chained.</returns>
+        </member>
+        <member name="M:DDDSample1.Configuration.DependencyInjection.SecurityExtensions.ConfigureCookie(Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions)">
+            <summary>
+            Configures cookie authentication options.
+            </summary>
+            <param name="options">The <see cref="T:Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationOptions"/> to configure.</param>
+        </member>
+        <member name="M:DDDSample1.Configuration.DependencyInjection.SecurityExtensions.ConfigureOpenIdConnect(Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectOptions,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Configures OpenID Connect authentication options, typically for integration with an
+            identity provider like Keycloak.
+            </summary>
+            <param name="options">The <see cref="T:Microsoft.AspNetCore.Authentication.OpenIdConnect.OpenIdConnectOptions"/> to configure.</param>
+            <param name="configuration">The application configuration containing Keycloak settings.</param>
+        </member>
+        <member name="T:DDDSample1.Configuration.DependencyInjection.SwaggerExtensions">
+            <summary>
+            Provides extension methods for <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection"/> and <see cref="T:Microsoft.AspNetCore.Builder.IApplicationBuilder"/>
+            to configure Swagger (OpenAPI) documentation.
+            </summary>
+        </member>
+        <member name="M:DDDSample1.Configuration.DependencyInjection.SwaggerExtensions.AddSwaggerServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Adds Swagger generation services to the specified <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection"/>.
+            Configures Swagger document information and XML comments integration.
+            </summary>
+            <param name="services">The <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection"/> to add Swagger services to.</param>
+            <returns>The <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection"/> so that additional calls can be chained.</returns>
+        </member>
+        <member name="M:DDDSample1.Configuration.DependencyInjection.SwaggerExtensions.UseSwaggerMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Configures the application to use Swagger and Swagger UI.
+            </summary>
+            <param name="app">The <see cref="T:Microsoft.AspNetCore.Builder.IApplicationBuilder"/> to configure.</param>
+            <returns>The <see cref="T:Microsoft.AspNetCore.Builder.IApplicationBuilder"/> so that additional calls can be chained.</returns>
+        </member>
+        <member name="M:DDDSample1.Domain.Detections.IImageProcessorService.DrawBoundingBoxesAsync(System.Byte[],System.Collections.Generic.List{DDDSample1.Domain.Detections.RoboflowPredictionDTO})">
+            <summary>
+            Draws bounding boxes on an image based on prediction data.
+            </summary>
+            <param name="originalImageBytes">The byte array of the original image.</param>
+            <param name="predictions">The list of predictions containing coordinates and classes.</param>
+            <returns>A byte array representing the processed image with bounding boxes, or null if processing fails.</returns>
+        </member>
+        <member name="T:DDDSample1.Domain.Shared.Entity`1">
+            <summary>
+            Base class for entities.
+            </summary>
+        </member>
+        <member name="T:DDDSample1.Domain.Shared.EntityId">
+            <summary>
+            Base class for entities.
+            </summary>
+        </member>
+        <member name="T:DDDSample1.Application.Services.AuthenticationService">
+            <summary>
+            Handles authentication-related operations including OAuth2/OpenID Connect flows.
+            </summary>
+        </member>
+        <member name="M:DDDSample1.Application.Services.AuthenticationService.LogoutAsync">
+            <summary>
+            Performs user logout from both local and OpenID provider sessions.
+            </summary>
+            <returns>Logout URL for client-side redirect.</returns>
+        </member>
+        <member name="M:DDDSample1.Application.Services.AuthenticationService.GetUserInfoAsync">
+            <summary>
+            Retrieves authenticated user information including claims.
+            </summary>
+            <returns>User details and associated claims.</returns>
+        </member>
+        <member name="T:DDDSample1.Infrastructure.Shared.StronglyEntityIdValueConverterSelector">
+            <summary>
+            Based on https://andrewlock.net/strongly-typed-ids-in-ef-core-using-strongly-typed-entity-ids-to-avoid-primitive-obsession-part-4/
+            </summary>
+        </member>
+        <member name="T:DDDNetCore.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:DDDNetCore.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:DDDNetCore.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:DDDNetCore.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
