@@ -4,6 +4,7 @@ using DDDSample1.Domain.Roles;
 using System.Threading.Tasks;
 using DDDSample1.Application.Shared;
 using System.Collections.Generic;
+using System;
 
 namespace DDDSample1.Controllers
 {
@@ -58,7 +59,9 @@ namespace DDDSample1.Controllers
         {
             try
             {
+ 
                 var result = await _roleService.AddAsync(dto);
+
                 return ApiResponse.For(result).Build(StatusCodeEnum.Success);
             }
             catch (BusinessRuleValidationException ex)

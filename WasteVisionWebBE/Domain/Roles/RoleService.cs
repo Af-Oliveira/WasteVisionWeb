@@ -2,6 +2,7 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 using DDDSample1.Domain.Shared;
 using DDDSample1.Domain.Logging;
+using System;
 
 namespace DDDSample1.Domain.Roles
 {
@@ -41,6 +42,7 @@ namespace DDDSample1.Domain.Roles
             try
             {
                 var role = new Role(new Description(dto.Description));
+       
                 await _repo.AddAsync(role);
                 await _unitOfWork.CommitAsync();
                 _logManager.Write(LogType.Role, $"Created role with description {role.Description.ToString()}");

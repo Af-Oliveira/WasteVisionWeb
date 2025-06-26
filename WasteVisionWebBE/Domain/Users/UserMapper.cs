@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using DDDSample1.Domain.Roles;
@@ -30,7 +31,7 @@ namespace DDDSample1.Domain.Users
                 user.Email.AsString(),
                 user.Username.AsString(),
                 user.Role?.Description?.AsString(),
-                user.Role?.Id?.AsString(),
+                user.RoleId.AsString(),
                 user.Active
             );
         }

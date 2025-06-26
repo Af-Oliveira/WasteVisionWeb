@@ -110,14 +110,6 @@ namespace DDDSample1.Controllers
         public async Task<ActionResult> CreateModel([FromForm] CreatingRoboflowModelDto dto)
         {
 
-            if (!ModelState.IsValid) // Optional: Add model state validation
-            {
-                return ApiResponse.For<RoboflowModelDto>()
-                   .AsError()
-                   .WithMessage("Invalid model data provided.")
-                   .Build(StatusCodeEnum.BadRequestError);
-            }
-
             try
             {
                 var result = await _roboflowModelService.CreateAsync(dto);

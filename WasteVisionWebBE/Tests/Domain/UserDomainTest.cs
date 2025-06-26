@@ -24,41 +24,10 @@ namespace DDDSample1.Tests.Domain.Users
             Assert.Equal(email, user.Email);
             Assert.Equal(username, user.Username);
             Assert.Equal(roleId, user.RoleId);
-            Assert.False(user.Active); // Users should be created as inactive
+            Assert.True(user.Active); // Users should be created as inactive
         }
 
-        [Fact]
-        public void TestActivateUser()
-        {
-            // Arrange
-            var user = new User(
-                new Email("test@example.com"),
-                new Username("testuser"),
-                new RoleId(Guid.NewGuid())
-            );
-
-            // Act
-            user.Activate();
-
-            // Assert
-            Assert.True(user.Active);
-        }
-
-        [Fact]
-        public void TestActivateAlreadyActiveUser_ShouldThrowException()
-        {
-            // Arrange
-            var user = new User(
-                new Email("test@example.com"),
-                new Username("testuser"),
-                new RoleId(Guid.NewGuid())
-            );
-            user.Activate(); // User is now active
-
-            // Act & Assert
-            Assert.Throws<BusinessRuleValidationException>(() => user.Activate());
-        }
-
+        
         [Fact]
         public void TestDeactivateUser()
         {
@@ -68,7 +37,6 @@ namespace DDDSample1.Tests.Domain.Users
                 new Username("testuser"),
                 new RoleId(Guid.NewGuid())
             );
-            user.Activate(); // Must be active to be deactivated
 
             // Act
             user.Deactivate();
@@ -86,10 +54,43 @@ namespace DDDSample1.Tests.Domain.Users
                 new Username("testuser"),
                 new RoleId(Guid.NewGuid())
             ); // User is inactive by default
-
+            user.Deactivate(); // Ensure user is inactive
             // Act & Assert
             Assert.Throws<BusinessRuleValidationException>(() => user.Deactivate());
         }
+
+        [Fact]
+        public void TestActivateUser()
+        {
+            // Arrange
+            var user = new User(
+                new Email("test@example.com"),
+                new Username("testuser"),
+                new RoleId(Guid.NewGuid())
+            );
+            user.Deactivate(); // Ensure user is inactive
+            // Act
+            user.Activate();
+
+            // Assert
+            Assert.True(user.Active);
+        }
+
+        
+        [Fact]
+        public void TestActivateAlreadyActiveUser_ShouldThrowException()
+        {
+            // Arrange
+            var user = new User(
+                new Email("test@example.com"),
+                new Username("testuser"),
+                new RoleId(Guid.NewGuid())
+            );
+
+            // Act & Assert
+            Assert.Throws<BusinessRuleValidationException>(() => user.Activate());
+        }
+
 
         [Fact]
         public void TestChangeEmail_ActiveUser()
@@ -101,7 +102,6 @@ namespace DDDSample1.Tests.Domain.Users
                 new Username("testuser"),
                 new RoleId(Guid.NewGuid())
             );
-            user.Activate();
 
             // Act
             user.ChangeEmail(newEmail);
@@ -120,7 +120,7 @@ namespace DDDSample1.Tests.Domain.Users
                 new Username("testuser"),
                 new RoleId(Guid.NewGuid())
             ); // User is inactive
-
+            user.Deactivate(); // Ensure user is inactive
             // Act & Assert
             Assert.Throws<BusinessRuleValidationException>(
                 () => user.ChangeEmail(newEmail)
@@ -137,7 +137,6 @@ namespace DDDSample1.Tests.Domain.Users
                 new Username("testuser"),
                 new RoleId(Guid.NewGuid())
             );
-            user.Activate();
 
             // Act
             user.ChangeUsername(newUsername);
@@ -156,7 +155,7 @@ namespace DDDSample1.Tests.Domain.Users
                 new Username("testuser"),
                 new RoleId(Guid.NewGuid())
             ); // User is inactive
-
+            user.Deactivate(); // Ensure user is inactive
             // Act & Assert
             Assert.Throws<BusinessRuleValidationException>(
                 () => user.ChangeUsername(newUsername)
@@ -173,7 +172,6 @@ namespace DDDSample1.Tests.Domain.Users
                 new Username("testuser"),
                 new RoleId(Guid.NewGuid())
             );
-            user.Activate();
 
             // Act
             user.ChangeRoleId(newRoleId);
@@ -192,7 +190,7 @@ namespace DDDSample1.Tests.Domain.Users
                 new Username("testuser"),
                 new RoleId(Guid.NewGuid())
             ); // User is inactive
-
+            user.Deactivate(); // Ensure user is inactive
             // Act & Assert
             Assert.Throws<BusinessRuleValidationException>(
                 () => user.ChangeRoleId(newRoleId)

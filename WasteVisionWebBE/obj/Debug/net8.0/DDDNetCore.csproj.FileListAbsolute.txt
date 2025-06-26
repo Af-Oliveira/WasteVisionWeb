@@ -3,6 +3,8 @@ C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\bin\Debug\ne
 C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\bin\Debug\net8.0\appsettings.json
 C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\bin\Debug\net8.0\appsettings.Production.json
 C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\bin\Debug\net8.0\global.json
+C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\bin\Debug\net8.0\package-lock.json
+C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\bin\Debug\net8.0\package.json
 C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\bin\Debug\net8.0\YoloDetection_venv\Lib\site-packages\scipy\stats\tests\data\studentized_range_mpmath_ref.json
 C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\bin\Debug\net8.0\YoloDetection_venv\Lib\site-packages\setuptools\config\distutils.schema.json
 C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\bin\Debug\net8.0\YoloDetection_venv\Lib\site-packages\setuptools\config\setuptools.schema.json
@@ -139,6 +141,7 @@ C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\obj\Debug\ne
 C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\obj\Debug\net8.0\DDDNetCore.csproj.CoreCompileInputs.cache
 C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\obj\Debug\net8.0\DDDNetCore.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\obj\Debug\net8.0\DDDNetCore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\obj\Debug\net8.0\DDDNetCore.sourcelink.json
 C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\obj\Debug\net8.0\staticwebassets\msbuild.DDDNetCore.Microsoft.AspNetCore.StaticWebAssets.props

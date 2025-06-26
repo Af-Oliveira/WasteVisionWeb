@@ -12,7 +12,6 @@ namespace DDDSample1.Domain.RoboflowModels
         
         // This will be populated by the service after fetching from Roboflow
         public string EndPoint { get; set; } 
-        public string RoboflowId { get; set; } // Assuming this is also from Roboflow info
         public string Map { get; set; }
         public string Recall { get; set; }
         public string Precision { get; set; }
@@ -61,11 +60,6 @@ namespace DDDSample1.Domain.RoboflowModels
                 return this;
             }
 
-            public Builder WithRoboflowId(string roboflowId)
-            {
-                _dto.RoboflowId = roboflowId; // Typically set by service
-                return this;
-            }
 
             public Builder WithMap(string map)
             {

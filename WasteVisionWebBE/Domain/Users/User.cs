@@ -14,7 +14,7 @@ namespace DDDSample1.Domain.Users
 
         private User()
         {
-            Active = false;
+            Active = true;
         } // For ORM
 
         public User(Email email, Username username, RoleId roleId)
@@ -23,7 +23,7 @@ namespace DDDSample1.Domain.Users
             Email = email;
             Username = username;
             RoleId = roleId;
-            Active = false;
+            Active = true;
         }
 
         public void Activate()

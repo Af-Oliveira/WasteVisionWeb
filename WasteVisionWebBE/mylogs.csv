@@ -2353,3 +2353,820 @@ Detection,2025-06-09 02:07:45,Sending detection request to Roboflow: https://ser
 Detection,2025-06-09 02:07:45,Roboflow detected 0 objects
 Detection,2025-06-09 02:07:45,No predictions found for image: http://localhost:3000/uploads/Detection_4666cf75-fd10-493a-8c54-371084f404b4.jpg
 Error,2025-06-09 02:07:45,Failed to create prediction: Model  Url cannot be empty.
+Role,2025-06-18 09:40:37,Created role with description E2E Test Role 1750236037797
+Role,2025-06-18 09:40:42,Created role with description E2E Test Role 1750236042391
+Role,2025-06-18 09:44:46,Created role with description E2E Test Role 1750236286328
+Role,2025-06-18 09:44:52,Created role with description E2E Test Role 1750236292088
+Role,2025-06-18 09:47:20,Created role with description E2E Test Role 1750236440575
+Role,2025-06-18 09:47:41,Created role with description E2E Test Role 1750236461232
+Role,2025-06-18 09:47:46,Created role with description E2E Test Role 1750236466758
+Role,2025-06-18 09:48:49,Created role with description E2E Test Role 1750236529760
+Role,2025-06-18 09:48:53,Created role with description E2E Test Role 1750236533744
+Role,2025-06-18 09:49:22,Created role with description E2E Test Role 1750236562076
+Role,2025-06-18 09:49:28,Created role with description E2E Test Role 1750236568732
+Role,2025-06-18 09:49:52,Created role with description E2E Test Role 1750236592955
+Role,2025-06-18 09:50:02,Created role with description E2E Test Role 1750236602134
+Role,2025-06-18 09:50:47,Created role with description E2E Test Role 1750236647618
+Role,2025-06-18 09:58:30,Created role with description E2E Test Role 1750237110960
+Role,2025-06-18 09:58:40,Created role with description E2E Test Role 1750237120721
+Role,2025-06-18 10:01:50,Created role with description E2E Test Role 1750237309640
+Role,2025-06-20 21:13:41,Created role with description E2E Test Role 1750450421085
+Role,2025-06-20 21:21:07,Created role with description E2E Test Role 1750450867826
+Error,2025-06-20 21:21:08,Failed to create role
+Role,2025-06-20 21:21:43,Created role with description E2E Test Role 1750450903537
+Error,2025-06-20 21:21:43,Failed to create role
+Role,2025-06-20 21:21:43,Updated role with description Updated Role 1750450903783
+Role,2025-06-20 21:21:43,Deactivated role with description Updated Role 1750450903783
+Role,2025-06-20 21:21:43,Activated role with description Updated Role 1750450903783
+Error,2025-06-20 21:21:44,Failed to delete role
+RoboflowModel,2025-06-20 21:31:17,Attempting to create model: E2E Test Model 1750451477419
+Info,2025-06-20 21:31:17,No model file provided for local storage.
+Info,2025-06-20 21:31:17,Fetching model info from Roboflow: https://serverless.roboflow.com/garbage-classification-3/2
+Error,2025-06-20 21:31:17,Failed to fetch model info: Response status code does not indicate success: 400 (Bad Request).
+Error,2025-06-20 21:31:17,Failed to create model: Failed to validate model credentials
+StackTrace:    at DDDSample1.Domain.RoboflowModels.RoboflowModelInfoService.GetModelInfoAsync(String modelUrl, String apiKey) in C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\Domain\RoboflowModel\RoboflowModelInfoService.cs:line 43
+   at DDDSample1.Domain.RoboflowModels.RoboflowModelService.CreateAsync(CreatingRoboflowModelDto dto) in C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\Domain\RoboflowModel\RoboflowModelService.cs:line 99
+RoboflowModel,2025-06-20 21:33:02,Attempting to create model: E2E Test Model 1750451582409
+Info,2025-06-20 21:33:02,No model file provided for local storage.
+Info,2025-06-20 21:33:02,Fetching model info from Roboflow: https://serverless.roboflow.com/garbage-classification-3/2
+Error,2025-06-20 21:33:02,Failed to fetch model info: Response status code does not indicate success: 400 (Bad Request).
+Error,2025-06-20 21:33:02,Failed to create model: Failed to validate model credentials
+StackTrace:    at DDDSample1.Domain.RoboflowModels.RoboflowModelInfoService.GetModelInfoAsync(String modelUrl, String apiKey) in C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\Domain\RoboflowModel\RoboflowModelInfoService.cs:line 43
+   at DDDSample1.Domain.RoboflowModels.RoboflowModelService.CreateAsync(CreatingRoboflowModelDto dto) in C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\Domain\RoboflowModel\RoboflowModelService.cs:line 99
+RoboflowModel,2025-06-20 21:37:41,Attempting to create model: E2E Test Model 1750451861895
+Info,2025-06-20 21:37:41,No model file provided for local storage.
+Info,2025-06-20 21:37:41,Fetching model info from Roboflow: https://serverless.roboflow.com/garbage-classification-3/2
+Error,2025-06-20 21:37:42,Failed to fetch model info: Response status code does not indicate success: 400 (Bad Request).
+Error,2025-06-20 21:37:42,Failed to create model: Failed to validate model credentials
+StackTrace:    at DDDSample1.Domain.RoboflowModels.RoboflowModelInfoService.GetModelInfoAsync(String modelUrl, String apiKey) in C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\Domain\RoboflowModel\RoboflowModelInfoService.cs:line 43
+   at DDDSample1.Domain.RoboflowModels.RoboflowModelService.CreateAsync(CreatingRoboflowModelDto dto) in C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\Domain\RoboflowModel\RoboflowModelService.cs:line 99
+RoboflowModel,2025-06-20 21:40:10,Attempting to create model: E2E Test Model 1750452010578
+Info,2025-06-20 21:40:10,No model file provided for local storage.
+Info,2025-06-20 21:40:10,Fetching model info from Roboflow: https://serverless.roboflow.com/garbage-classification-3/2
+Error,2025-06-20 21:40:11,Failed to fetch model info: Response status code does not indicate success: 400 (Bad Request).
+Error,2025-06-20 21:40:11,Failed to create model: Failed to validate model credentials
+StackTrace:    at DDDSample1.Domain.RoboflowModels.RoboflowModelInfoService.GetModelInfoAsync(String modelUrl, String apiKey) in C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\Domain\RoboflowModel\RoboflowModelInfoService.cs:line 43
+   at DDDSample1.Domain.RoboflowModels.RoboflowModelService.CreateAsync(CreatingRoboflowModelDto dto) in C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\Domain\RoboflowModel\RoboflowModelService.cs:line 99
+RoboflowModel,2025-06-20 21:41:42,Attempting to create model: E2E Test Model 1750452102122
+Info,2025-06-20 21:41:42,No model file provided for local storage.
+Info,2025-06-20 21:41:42,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 21:41:42,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 21:41:42,Successfully added model to repository with ID: bbf5fa20-009f-413a-8715-a46f5b0f42b0
+RoboflowModel,2025-06-20 21:41:42,Created model 'E2E Test Model 1750452102122' with local path 'None'
+RoboflowModel,2025-06-20 21:41:47,Attempting to create model: E2E Test Model 1750452107938
+Info,2025-06-20 21:41:47,No model file provided for local storage.
+Info,2025-06-20 21:41:47,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 21:41:48,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 21:41:48,Successfully added model to repository with ID: a6bc52b3-6a52-43f8-852d-3139550f02a9
+RoboflowModel,2025-06-20 21:41:48,Created model 'E2E Test Model 1750452107938' with local path 'None'
+RoboflowModel,2025-06-20 21:42:01,Attempting to create model: E2E Test Model 1750452121517
+Info,2025-06-20 21:42:01,No model file provided for local storage.
+Info,2025-06-20 21:42:01,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 21:42:01,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 21:42:01,Successfully added model to repository with ID: 942e9054-0ea3-4d69-809e-a3b926627487
+RoboflowModel,2025-06-20 21:42:01,Created model 'E2E Test Model 1750452121517' with local path 'None'
+RoboflowModel,2025-06-20 21:44:53,Attempting to create model: E2E Test Model 1750452293859
+Info,2025-06-20 21:44:53,No model file provided for local storage.
+Info,2025-06-20 21:44:53,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 21:44:54,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 21:44:54,Successfully added model to repository with ID: 945875e9-6b54-41c7-bc9a-89b5863dd473
+RoboflowModel,2025-06-20 21:44:54,Created model 'E2E Test Model 1750452293859' with local path 'None'
+RoboflowModel,2025-06-20 21:46:29,Attempting to create model: E2E Test Model 1750452389226
+Info,2025-06-20 21:46:29,No model file provided for local storage.
+Info,2025-06-20 21:46:29,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 21:46:29,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 21:46:29,Successfully added model to repository with ID: 48edb7c8-aa26-47f3-a9f1-bf77c5b41ac4
+RoboflowModel,2025-06-20 21:46:29,Created model 'E2E Test Model 1750452389226' with local path 'None'
+RoboflowModel,2025-06-20 21:46:56,Attempting to create model: E2E Test Model 1750452416089
+Info,2025-06-20 21:46:56,No model file provided for local storage.
+Info,2025-06-20 21:46:56,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 21:46:56,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 21:46:56,Successfully added model to repository with ID: 3f729f6d-f680-49af-b5e9-962002e66d95
+RoboflowModel,2025-06-20 21:46:56,Created model 'E2E Test Model 1750452416089' with local path 'None'
+RoboflowModel,2025-06-20 21:48:01,Attempting to create model: E2E Test Model 1750452481473
+Info,2025-06-20 21:48:01,No model file provided for local storage.
+Info,2025-06-20 21:48:01,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 21:48:01,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 21:48:01,Successfully added model to repository with ID: 6f94fd1e-481a-48da-871f-3e8232a42d3e
+RoboflowModel,2025-06-20 21:48:01,Created model 'E2E Test Model 1750452481473' with local path 'None'
+RoboflowModel,2025-06-20 21:51:00,Attempting to create model: E2E Test Model 1750452660626
+Info,2025-06-20 21:51:00,No model file provided for local storage.
+Info,2025-06-20 21:51:00,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 21:51:00,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 21:51:00,Successfully added model to repository with ID: cf571a6c-e98e-453f-b4c0-f6fcd09513ca
+RoboflowModel,2025-06-20 21:51:00,Created model 'E2E Test Model 1750452660626' with local path 'None'
+RoboflowModel,2025-06-20 21:52:16,Attempting to create model: E2E Test Model 1750452736303
+Info,2025-06-20 21:52:16,No model file provided for local storage.
+Info,2025-06-20 21:52:16,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 21:52:16,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 21:52:16,Successfully added model to repository with ID: 6f291d39-e2b0-4424-aed4-5081d8a0150d
+RoboflowModel,2025-06-20 21:52:16,Created model 'E2E Test Model 1750452736303' with local path 'None'
+RoboflowModel,2025-06-20 21:52:42,Attempting to create model: E2E Test Model 1750452762454
+Info,2025-06-20 21:52:42,No model file provided for local storage.
+Info,2025-06-20 21:52:42,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 21:52:42,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 21:52:42,Successfully added model to repository with ID: 0f7739ce-5b8e-4033-b3e3-10dd66a4c775
+RoboflowModel,2025-06-20 21:52:42,Created model 'E2E Test Model 1750452762454' with local path 'None'
+RoboflowModel,2025-06-20 21:52:53,Attempting to create model: E2E Test Model 1750452773385
+Info,2025-06-20 21:52:53,No model file provided for local storage.
+Info,2025-06-20 21:52:53,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 21:52:53,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 21:52:53,Successfully added model to repository with ID: ef3c4f78-a1f2-4be1-87c6-4df32e7ea39f
+RoboflowModel,2025-06-20 21:52:53,Created model 'E2E Test Model 1750452773385' with local path 'None'
+RoboflowModel,2025-06-20 21:53:51,Attempting to create model: Teste
+Info,2025-06-20 21:53:51,target directory: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\PythonBE\models
+Info,2025-06-20 21:53:51,Saving model file to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\PythonBE\models\db686f60-5f11-41bd-a297-281ec88ded0d.pt
+Info,2025-06-20 21:53:51,Successfully saved model file: db686f60-5f11-41bd-a297-281ec88ded0d.pt
+Info,2025-06-20 21:53:51,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 21:53:52,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 21:53:52,Successfully added model to repository with ID: 7ac00645-ac3d-4f98-b9fe-fddc780015b5
+RoboflowModel,2025-06-20 21:53:52,Created model 'Teste' with local path 'C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\PythonBE\models\db686f60-5f11-41bd-a297-281ec88ded0d.pt'
+RoboflowModel,2025-06-20 21:56:20,Attempting to create model: E2E Test Model 1750452980277
+Info,2025-06-20 21:56:20,No model file provided for local storage.
+Info,2025-06-20 21:56:20,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 21:56:20,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 21:56:20,Successfully added model to repository with ID: 8c73bbeb-5815-4bb4-998a-aed37e06f665
+RoboflowModel,2025-06-20 21:56:20,Created model 'E2E Test Model 1750452980277' with local path 'None'
+RoboflowModel,2025-06-20 21:56:27,Attempting to create model: E2E Test Model 1750452987290
+Info,2025-06-20 21:56:27,No model file provided for local storage.
+Info,2025-06-20 21:56:27,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 21:56:27,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 21:56:27,Successfully added model to repository with ID: 0c7a20b6-ed7f-45ff-b02c-4a01e4825b74
+RoboflowModel,2025-06-20 21:56:27,Created model 'E2E Test Model 1750452987290' with local path 'None'
+RoboflowModel,2025-06-20 21:57:55,Attempting to create model: E2E Test Model 1750453075556
+Info,2025-06-20 21:57:55,No model file provided for local storage.
+Info,2025-06-20 21:57:55,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 21:57:56,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 21:57:56,Successfully added model to repository with ID: 28a75711-91b8-4014-a74a-792178043c6e
+RoboflowModel,2025-06-20 21:57:56,Created model 'E2E Test Model 1750453075556' with local path 'None'
+RoboflowModel,2025-06-20 21:57:59,Attempting to create model: E2E Test Model 1750453079014
+Info,2025-06-20 21:57:59,No model file provided for local storage.
+Info,2025-06-20 21:57:59,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 21:57:59,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 21:57:59,Successfully added model to repository with ID: f56a0272-b467-4a9d-aabe-1e5ef90bab55
+RoboflowModel,2025-06-20 21:57:59,Created model 'E2E Test Model 1750453079014' with local path 'None'
+RoboflowModel,2025-06-20 22:01:02,Attempting to create model: E2E Test Model 1750453262624
+Info,2025-06-20 22:01:02,No model file provided for local storage.
+Info,2025-06-20 22:01:02,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:01:03,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:01:03,Successfully added model to repository with ID: ecae7814-85fa-41e7-b351-cdbf60d2407c
+RoboflowModel,2025-06-20 22:01:03,Created model 'E2E Test Model 1750453262624' with local path 'None'
+RoboflowModel,2025-06-20 22:01:12,Attempting to create model: E2E Test Model 1750453272231
+Info,2025-06-20 22:01:12,No model file provided for local storage.
+Info,2025-06-20 22:01:12,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:01:12,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:01:12,Successfully added model to repository with ID: b6cee67c-db2d-469d-b691-2bd3bbf85cc4
+RoboflowModel,2025-06-20 22:01:12,Created model 'E2E Test Model 1750453272231' with local path 'None'
+RoboflowModel,2025-06-20 22:01:46,Attempting to create model: E2E Test Model 1750453306520
+Info,2025-06-20 22:01:46,No model file provided for local storage.
+Info,2025-06-20 22:01:46,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:01:46,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:01:46,Successfully added model to repository with ID: 087ae781-bb89-4b5f-9826-7d1c52e79797
+RoboflowModel,2025-06-20 22:01:46,Created model 'E2E Test Model 1750453306520' with local path 'None'
+RoboflowModel,2025-06-20 22:01:52,Attempting to create model: E2E Test Model 1750453312245
+Info,2025-06-20 22:01:52,No model file provided for local storage.
+Info,2025-06-20 22:01:52,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:01:52,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:01:52,Successfully added model to repository with ID: 37365a07-2c25-455d-b2ac-366ff57728d8
+RoboflowModel,2025-06-20 22:01:52,Created model 'E2E Test Model 1750453312245' with local path 'None'
+Role,2025-06-20 22:02:43,Created role with description E2E Test Role 1750453363140
+Error,2025-06-20 22:02:43,Failed to create role
+Role,2025-06-20 22:02:43,Updated role with description Updated Role 1750453363269
+Role,2025-06-20 22:02:43,Deactivated role with description Updated Role 1750453363269
+Role,2025-06-20 22:02:43,Activated role with description Updated Role 1750453363269
+Error,2025-06-20 22:02:43,Failed to delete role
+RoboflowModel,2025-06-20 22:02:51,Attempting to create model: E2E Test Model 1750453371235
+Info,2025-06-20 22:02:51,No model file provided for local storage.
+Info,2025-06-20 22:02:51,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:02:51,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:02:51,Successfully added model to repository with ID: 382cbdda-534f-4e97-9d9e-5ee44944c7c0
+RoboflowModel,2025-06-20 22:02:51,Created model 'E2E Test Model 1750453371235' with local path 'None'
+RoboflowModel,2025-06-20 22:03:04,Attempting to create model: E2E Test Model 1750453384421
+Info,2025-06-20 22:03:04,No model file provided for local storage.
+Info,2025-06-20 22:03:04,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:03:04,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:03:04,Successfully added model to repository with ID: a9265bd3-2021-469b-94cf-04ad408e26c9
+RoboflowModel,2025-06-20 22:03:04,Created model 'E2E Test Model 1750453384421' with local path 'None'
+RoboflowModel,2025-06-20 22:03:29,Attempting to create model: E2E Test Model 1750453409905
+Info,2025-06-20 22:03:29,No model file provided for local storage.
+Info,2025-06-20 22:03:29,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:03:30,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:03:30,Successfully added model to repository with ID: 4151e111-17d4-4c87-828d-bb8736ab22df
+RoboflowModel,2025-06-20 22:03:30,Created model 'E2E Test Model 1750453409905' with local path 'None'
+RoboflowModel,2025-06-20 22:03:45,Attempting to create model: E2E Test Model 1750453425900
+Info,2025-06-20 22:03:45,No model file provided for local storage.
+Info,2025-06-20 22:03:45,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:03:46,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:03:46,Successfully added model to repository with ID: 288ffba1-9233-4186-964e-ae39c6306f7b
+RoboflowModel,2025-06-20 22:03:46,Created model 'E2E Test Model 1750453425900' with local path 'None'
+RoboflowModel,2025-06-20 22:04:10,Attempting to create model: Teste
+Info,2025-06-20 22:04:10,target directory: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\PythonBE\models
+Info,2025-06-20 22:04:10,Saving model file to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\PythonBE\models\3580d868-69ae-4e2a-a603-6b3464f73c56.pt
+Info,2025-06-20 22:04:10,Successfully saved model file: 3580d868-69ae-4e2a-a603-6b3464f73c56.pt
+Info,2025-06-20 22:04:10,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:04:10,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:04:10,Successfully added model to repository with ID: 268d148a-84f4-4cde-bfb6-86d535fb7c0c
+RoboflowModel,2025-06-20 22:04:10,Created model 'Teste' with local path 'C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\PythonBE\models\3580d868-69ae-4e2a-a603-6b3464f73c56.pt'
+RoboflowModel,2025-06-20 22:05:17,Attempting to create model: E2E Test Model 1750453517366
+Info,2025-06-20 22:05:17,No model file provided for local storage.
+Info,2025-06-20 22:05:17,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:05:17,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:05:17,Successfully added model to repository with ID: ce01787b-a359-44fe-9e01-dd998dabe803
+RoboflowModel,2025-06-20 22:05:17,Created model 'E2E Test Model 1750453517366' with local path 'None'
+RoboflowModel,2025-06-20 22:07:44,Attempting to create model: E2E Test Model 1750453664363
+Info,2025-06-20 22:07:44,No model file provided for local storage.
+Info,2025-06-20 22:07:44,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:07:44,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:07:44,Successfully added model to repository with ID: b0d75a45-2ce1-427a-94f6-be85b9723b79
+RoboflowModel,2025-06-20 22:07:44,Created model 'E2E Test Model 1750453664363' with local path 'None'
+RoboflowModel,2025-06-20 22:07:46,Attempting to create model: E2E Test Model 1750453666815
+Info,2025-06-20 22:07:46,No model file provided for local storage.
+Info,2025-06-20 22:07:46,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:07:47,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:07:47,Successfully added model to repository with ID: f27b4144-f1de-40ac-a78e-7858791aaaac
+RoboflowModel,2025-06-20 22:07:47,Created model 'E2E Test Model 1750453666815' with local path 'None'
+RoboflowModel,2025-06-20 22:08:00,Attempting to create model: E2E Test Model 1750453680721
+Info,2025-06-20 22:08:00,No model file provided for local storage.
+Info,2025-06-20 22:08:00,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:08:00,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:08:01,Successfully added model to repository with ID: 476727a2-f6bd-4ff0-b8f8-fb5873a9c8b2
+RoboflowModel,2025-06-20 22:08:01,Created model 'E2E Test Model 1750453680721' with local path 'None'
+RoboflowModel,2025-06-20 22:09:29,Attempting to create model: E2E Test Model 1750453769134
+Info,2025-06-20 22:09:29,No model file provided for local storage.
+Info,2025-06-20 22:09:29,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:09:29,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:09:29,Successfully added model to repository with ID: 6f66a696-2222-4d3b-9849-55b4ee694875
+RoboflowModel,2025-06-20 22:09:29,Created model 'E2E Test Model 1750453769134' with local path 'None'
+RoboflowModel,2025-06-20 22:09:35,Attempting to create model: E2E Test Model 1750453775538
+Info,2025-06-20 22:09:35,No model file provided for local storage.
+Info,2025-06-20 22:09:35,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:09:35,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:09:35,Successfully added model to repository with ID: 6f6fcf6d-1a17-42b1-bbbf-9d715df727af
+RoboflowModel,2025-06-20 22:09:35,Created model 'E2E Test Model 1750453775538' with local path 'None'
+RoboflowModel,2025-06-20 22:09:44,Attempting to create model: E2E Test Model 1750453784326
+Info,2025-06-20 22:09:44,No model file provided for local storage.
+Info,2025-06-20 22:09:44,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:09:44,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:09:44,Successfully added model to repository with ID: 6c865e5a-27f5-438e-8112-09c3e9505e73
+RoboflowModel,2025-06-20 22:09:44,Created model 'E2E Test Model 1750453784326' with local path 'None'
+RoboflowModel,2025-06-20 22:10:00,Attempting to create model: E2E Test Model 1750453800448
+Info,2025-06-20 22:10:00,No model file provided for local storage.
+Info,2025-06-20 22:10:00,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:10:00,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:10:00,Successfully added model to repository with ID: 79653def-956c-406f-88ab-52c746549bc4
+RoboflowModel,2025-06-20 22:10:00,Created model 'E2E Test Model 1750453800448' with local path 'None'
+RoboflowModel,2025-06-20 22:12:54,Attempting to create model: E2E Test Model 1750453974786
+Info,2025-06-20 22:12:54,No model file provided for local storage.
+Info,2025-06-20 22:12:54,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:12:55,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:12:55,Successfully added model to repository with ID: 1771cd13-e11e-45d6-8803-09b8a72ec34d
+RoboflowModel,2025-06-20 22:12:55,Created model 'E2E Test Model 1750453974786' with local path 'None'
+RoboflowModel,2025-06-20 22:14:27,Attempting to create model: E2E Test Model 1750454067437
+Info,2025-06-20 22:14:27,No model file provided for local storage.
+Info,2025-06-20 22:14:27,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:14:27,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:14:27,Successfully added model to repository with ID: ae5dbc09-2c53-4eac-b01c-fb53adefae60
+RoboflowModel,2025-06-20 22:14:27,Created model 'E2E Test Model 1750454067437' with local path 'None'
+RoboflowModel,2025-06-20 22:18:04,Attempting to create model: E2E Test Model 1750454284919
+Info,2025-06-20 22:18:04,No model file provided for local storage.
+Info,2025-06-20 22:18:04,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:18:05,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:18:05,Successfully added model to repository with ID: 95a0a839-6d4d-45f5-8b7a-9e3d4d60292d
+RoboflowModel,2025-06-20 22:18:05,Created model 'E2E Test Model 1750454284919' with local path 'None'
+RoboflowModel,2025-06-20 22:18:07,Attempting to create model: E2E Test Model 1750454287352
+Info,2025-06-20 22:18:07,No model file provided for local storage.
+Info,2025-06-20 22:18:07,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:18:07,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:18:07,Successfully added model to repository with ID: 5690b658-0865-4319-a3db-b2e63c39937f
+RoboflowModel,2025-06-20 22:18:07,Created model 'E2E Test Model 1750454287352' with local path 'None'
+RoboflowModel,2025-06-20 22:19:01,Attempting to create model: E2E Test Model 1750454341880
+Info,2025-06-20 22:19:01,No model file provided for local storage.
+Info,2025-06-20 22:19:01,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:19:02,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:19:02,Successfully added model to repository with ID: 2ffa45f1-32f4-44d4-8090-b03556ab884f
+RoboflowModel,2025-06-20 22:19:02,Created model 'E2E Test Model 1750454341880' with local path 'None'
+RoboflowModel,2025-06-20 22:19:05,Attempting to create model: E2E Test Model 1750454345587
+Info,2025-06-20 22:19:05,No model file provided for local storage.
+Info,2025-06-20 22:19:05,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:19:05,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:19:05,Successfully added model to repository with ID: cd60b57e-8911-432d-9675-09c678ae7c78
+RoboflowModel,2025-06-20 22:19:05,Created model 'E2E Test Model 1750454345587' with local path 'None'
+RoboflowModel,2025-06-20 22:27:03,Attempting to create model: E2E Test Model 1750454823148
+Info,2025-06-20 22:27:03,No model file provided for local storage.
+Info,2025-06-20 22:27:03,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:27:03,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:27:03,Successfully added model to repository with ID: e4b655f8-59a3-4343-9cf0-b713d0a18353
+RoboflowModel,2025-06-20 22:27:03,Created model 'E2E Test Model 1750454823148' with local path 'None'
+RoboflowModel,2025-06-20 22:27:39,Attempting to create model: E2E Test Model 1750454859811
+Info,2025-06-20 22:27:39,No model file provided for local storage.
+Info,2025-06-20 22:27:39,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:27:40,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:27:40,Successfully added model to repository with ID: 6bb17678-d5e0-458f-9161-d4c3103e407d
+RoboflowModel,2025-06-20 22:27:40,Created model 'E2E Test Model 1750454859811' with local path 'None'
+RoboflowModel,2025-06-20 22:43:37,Attempting to create model: E2E Test Model 1750455816755
+Info,2025-06-20 22:43:37,No model file provided for local storage.
+Info,2025-06-20 22:43:37,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:43:39,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:43:40,Successfully added model to repository with ID: e3dde525-ba90-40c9-a08c-bd54b7c0ab2f
+RoboflowModel,2025-06-20 22:43:40,Created model 'E2E Test Model 1750455816755' with local path 'None'
+RoboflowModel,2025-06-20 22:48:10,Attempting to create model: E2E Test Model 1750456090418
+Info,2025-06-20 22:48:10,No model file provided for local storage.
+Info,2025-06-20 22:48:10,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:48:10,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:48:11,Attempting to create model: E2E Test Model 1750456090988
+Info,2025-06-20 22:48:11,No model file provided for local storage.
+Info,2025-06-20 22:48:11,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-20 22:48:11,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-20 22:48:11,Successfully added model to repository with ID: f9908128-fe15-4ade-86c8-9ed31ce85492
+RoboflowModel,2025-06-20 22:48:11,Successfully added model to repository with ID: 3a5c5448-4fe8-4ad4-872c-d6d5d1cf0e15
+RoboflowModel,2025-06-20 22:48:11,Created model 'E2E Test Model 1750456090988' with local path 'None'
+RoboflowModel,2025-06-20 22:48:11,Created model 'E2E Test Model 1750456090418' with local path 'None'
+Role,2025-06-23 17:00:50,Created role with description User
+Error,2025-06-23 17:01:17,Failed to create role
+Error,2025-06-23 17:02:00,Failed to create role
+Error,2025-06-23 17:02:46,Failed to create role
+Error,2025-06-23 17:03:25,Failed to create role
+Error,2025-06-23 17:04:47,Failed to create role
+Error,2025-06-23 17:05:22,Failed to create role
+Error,2025-06-23 17:07:34,Failed to create role
+Error,2025-06-23 17:13:25,Failed to create role
+Error,2025-06-23 17:13:53,Failed to create role
+Error,2025-06-23 17:16:08,Failed to create role
+Role,2025-06-23 17:16:51,Created role with description User
+Role,2025-06-23 17:17:11,Created role with description Admin
+Auth,2025-06-23 17:18:00,User afonsoliveira24@gmail.com logged out
+Auth,2025-06-23 17:18:00,User afonsoliveira24@gmail.com logged out
+Auth,2025-06-23 17:18:00,User afonsoliveira24@gmail.com logged out
+Auth,2025-06-23 17:23:33,User afonsoliveira24@gmail.com logged out
+Auth,2025-06-23 17:23:33,User afonsoliveira24@gmail.com logged out
+Auth,2025-06-23 17:23:33,User afonsoliveira24@gmail.com logged out
+Auth,2025-06-23 17:33:09,User afonsoliveira004@gmail.com logged out
+Auth,2025-06-23 17:33:09,User afonsoliveira004@gmail.com logged out
+Auth,2025-06-23 17:33:09,User afonsoliveira004@gmail.com logged out
+RoboflowModel,2025-06-23 17:34:06,Attempting to create model: Trash Detection
+Info,2025-06-23 17:34:06,target directory: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\PythonBE\models
+Info,2025-06-23 17:34:06,Saving model file to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\PythonBE\models\b15c0c19-359b-4041-a83c-7e7764ea26a9.pt
+Info,2025-06-23 17:34:06,Successfully saved model file: b15c0c19-359b-4041-a83c-7e7764ea26a9.pt
+Info,2025-06-23 17:34:06,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-23 17:34:07,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-23 17:34:07,Successfully added model to repository with ID: 085ebc46-d80a-4f3b-b3d7-e522ced2acc6
+RoboflowModel,2025-06-23 17:34:07,Created model 'Trash Detection' with local path 'C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\PythonBE\models\b15c0c19-359b-4041-a83c-7e7764ea26a9.pt'
+Detection,2025-06-23 17:34:17,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_687e4d94-f630-48ff-902a-8f7f836664e0.jpg
+Detection,2025-06-23 17:34:17,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_687e4d94-f630-48ff-902a-8f7f836664e0.jpg
+Detection,2025-06-23 17:34:17,Successfully uploaded image: http://localhost:3000/uploads/Detection_687e4d94-f630-48ff-902a-8f7f836664e0.jpg
+Detection,2025-06-23 17:34:17,Successfully read 21713 bytes from file metal186_jpg.rf.61e81e05dcbc43a0bf882bdba7d8e216.jpg
+Detection,2025-06-23 17:34:17,Sending detection request to Roboflow: https://serverless.roboflow.com/garbage-classification-3/2?api_key=kKrV2TlFATeJEMDXdKLM
+Detection,2025-06-23 17:34:21,Roboflow detected 6 objects
+Detection,2025-06-23 17:34:21,Successfully detected 6 objects in image
+Detection,2025-06-23 17:34:21,Successfully processed image with bounding boxes
+Detection,2025-06-23 17:34:21,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\processed_3affbac2-0466-4120-b47f-e108c177dd10.jpg
+Detection,2025-06-23 17:34:21,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\processed_3affbac2-0466-4120-b47f-e108c177dd10.jpg
+Detection,2025-06-23 17:34:21,Successfully saved processed image: http://localhost:3000/uploads/processed_3affbac2-0466-4120-b47f-e108c177dd10.jpg
+Detection,2025-06-23 17:34:21,Completed full Detectionion and processing workflow successfully
+Prediction,2025-06-23 17:34:21,Created prediction for user e56d8d0f-4a46-4181-9d08-327efa10020f
+ObjectPrediction,2025-06-23 17:34:21,Created ObjectPrediction for prediction 4e165906-a7af-491a-93ad-7c401e2a74cf
+ObjectPrediction,2025-06-23 17:34:21,Created ObjectPrediction for prediction 4e165906-a7af-491a-93ad-7c401e2a74cf
+ObjectPrediction,2025-06-23 17:34:21,Created ObjectPrediction for prediction 4e165906-a7af-491a-93ad-7c401e2a74cf
+ObjectPrediction,2025-06-23 17:34:21,Created ObjectPrediction for prediction 4e165906-a7af-491a-93ad-7c401e2a74cf
+ObjectPrediction,2025-06-23 17:34:22,Created ObjectPrediction for prediction 4e165906-a7af-491a-93ad-7c401e2a74cf
+ObjectPrediction,2025-06-23 17:34:22,Created ObjectPrediction for prediction 4e165906-a7af-491a-93ad-7c401e2a74cf
+Auth,2025-06-23 17:36:19,User afonsoliveira004@gmail.com logged out
+Auth,2025-06-23 17:36:19,User afonsoliveira004@gmail.com logged out
+Auth,2025-06-23 17:36:19,User afonsoliveira004@gmail.com logged out
+RoboflowModel,2025-06-23 17:38:09,Attempting to create model: Trash Detection teste
+Info,2025-06-23 17:38:09,target directory: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\PythonBE\models
+Info,2025-06-23 17:38:09,Saving model file to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\PythonBE\models\b6301c7f-865f-4c41-b050-fc48c92f1bd6.pt
+Info,2025-06-23 17:38:09,Successfully saved model file: b6301c7f-865f-4c41-b050-fc48c92f1bd6.pt
+Info,2025-06-23 17:38:09,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-23 17:38:09,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-23 17:38:09,Successfully added model to repository with ID: 4613e616-8e8e-4b81-917e-289273daf726
+RoboflowModel,2025-06-23 17:38:09,Created model 'Trash Detection teste' with local path 'C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\PythonBE\models\b6301c7f-865f-4c41-b050-fc48c92f1bd6.pt'
+RoboflowModel,2025-06-23 17:38:20,Deactivated model with name Trash Detection teste
+Info,2025-06-23 17:38:34,Deleted local model file: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\PythonBE\models\b6301c7f-865f-4c41-b050-fc48c92f1bd6.pt
+RoboflowModel,2025-06-23 17:38:34,Deleting model with name Trash Detection teste and ID 4613e616-8e8e-4b81-917e-289273daf726
+RoboflowModel,2025-06-23 17:38:34,Successfully deleted model from repository.
+Auth,2025-06-23 17:39:10,User afonsoliveira24@gmail.com logged out
+Auth,2025-06-23 17:39:10,User afonsoliveira24@gmail.com logged out
+Auth,2025-06-23 17:39:10,User afonsoliveira24@gmail.com logged out
+Role,2025-06-23 17:39:47,Created role with description teste
+Role,2025-06-23 17:39:57,Deactivated role with description teste
+Role,2025-06-23 17:40:02,Deleted role with description teste
+Detection,2025-06-23 17:41:10,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_78edcc40-14b3-4663-9819-28be192ae70d.jpeg
+Detection,2025-06-23 17:41:10,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_78edcc40-14b3-4663-9819-28be192ae70d.jpeg
+Detection,2025-06-23 17:41:10,Successfully uploaded image: http://localhost:3000/uploads/Detection_78edcc40-14b3-4663-9819-28be192ae70d.jpeg
+Detection,2025-06-23 17:41:10,Successfully read 366125 bytes from file capture.jpeg
+Detection,2025-06-23 17:41:10,Sending detection request to Roboflow: https://serverless.roboflow.com/garbage-classification-3/2?api_key=kKrV2TlFATeJEMDXdKLM
+Detection,2025-06-23 17:41:14,Roboflow detected 0 objects
+Detection,2025-06-23 17:41:14,No predictions found for image: http://localhost:3000/uploads/Detection_78edcc40-14b3-4663-9819-28be192ae70d.jpeg
+Error,2025-06-23 17:41:14,Failed to create prediction: Model  Url cannot be empty.
+Detection,2025-06-23 17:42:49,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_c2072467-6737-4060-a5d4-d9eadd854118.jpeg
+Detection,2025-06-23 17:42:49,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_c2072467-6737-4060-a5d4-d9eadd854118.jpeg
+Detection,2025-06-23 17:42:49,Successfully uploaded image: http://localhost:3000/uploads/Detection_c2072467-6737-4060-a5d4-d9eadd854118.jpeg
+Detection,2025-06-23 17:42:49,Successfully read 314286 bytes from file capture.jpeg
+Detection,2025-06-23 17:42:49,Sending detection request to Roboflow: https://serverless.roboflow.com/garbage-classification-3/2?api_key=kKrV2TlFATeJEMDXdKLM
+Detection,2025-06-23 17:42:52,Roboflow detected 0 objects
+Detection,2025-06-23 17:42:52,No predictions found for image: http://localhost:3000/uploads/Detection_c2072467-6737-4060-a5d4-d9eadd854118.jpeg
+Error,2025-06-23 17:42:52,Failed to create prediction: Model  Url cannot be empty.
+Detection,2025-06-23 17:44:09,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_6d1bb31e-b17e-4403-9664-84b41ec7b828.jpeg
+Detection,2025-06-23 17:44:09,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_6d1bb31e-b17e-4403-9664-84b41ec7b828.jpeg
+Detection,2025-06-23 17:44:09,Successfully uploaded image: http://localhost:3000/uploads/Detection_6d1bb31e-b17e-4403-9664-84b41ec7b828.jpeg
+Detection,2025-06-23 17:44:09,Successfully read 314286 bytes from file download.jpeg
+Detection,2025-06-23 17:44:09,Sending detection request to Roboflow: https://serverless.roboflow.com/garbage-classification-3/2?api_key=kKrV2TlFATeJEMDXdKLM
+Detection,2025-06-23 17:44:14,Roboflow detected 0 objects
+Detection,2025-06-23 17:44:14,No predictions found for image: http://localhost:3000/uploads/Detection_6d1bb31e-b17e-4403-9664-84b41ec7b828.jpeg
+Error,2025-06-23 17:44:14,Failed to create prediction: Model  Url cannot be empty.
+Detection,2025-06-23 17:45:24,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_ef651de4-6650-43f3-aba1-3cb3f35ec9c1.jpeg
+Detection,2025-06-23 17:45:24,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_ef651de4-6650-43f3-aba1-3cb3f35ec9c1.jpeg
+Detection,2025-06-23 17:45:24,Successfully uploaded image: http://localhost:3000/uploads/Detection_ef651de4-6650-43f3-aba1-3cb3f35ec9c1.jpeg
+Detection,2025-06-23 17:45:24,Successfully read 288412 bytes from file capture.jpeg
+Detection,2025-06-23 17:45:24,Sending detection request to Roboflow: https://serverless.roboflow.com/garbage-classification-3/2?api_key=kKrV2TlFATeJEMDXdKLM
+Detection,2025-06-23 17:45:26,Roboflow detected 0 objects
+Detection,2025-06-23 17:45:26,No predictions found for image: http://localhost:3000/uploads/Detection_ef651de4-6650-43f3-aba1-3cb3f35ec9c1.jpeg
+Error,2025-06-23 17:45:26,Failed to create prediction: Model  Url cannot be empty.
+Detection,2025-06-23 17:45:42,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_19ce1442-d62d-4cad-ad63-8b2f6c71112a.jpeg
+Detection,2025-06-23 17:45:42,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_19ce1442-d62d-4cad-ad63-8b2f6c71112a.jpeg
+Detection,2025-06-23 17:45:42,Successfully uploaded image: http://localhost:3000/uploads/Detection_19ce1442-d62d-4cad-ad63-8b2f6c71112a.jpeg
+Detection,2025-06-23 17:45:42,Successfully read 303570 bytes from file capture.jpeg
+Detection,2025-06-23 17:45:42,Sending detection request to Roboflow: https://serverless.roboflow.com/garbage-classification-3/2?api_key=kKrV2TlFATeJEMDXdKLM
+Detection,2025-06-23 17:45:43,Roboflow detected 1 objects
+Detection,2025-06-23 17:45:43,Successfully detected 1 objects in image
+Detection,2025-06-23 17:45:43,Successfully processed image with bounding boxes
+Detection,2025-06-23 17:45:43,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\processed_de338e4c-32b4-4918-9032-0fe41074c13a.jpeg
+Detection,2025-06-23 17:45:43,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\processed_de338e4c-32b4-4918-9032-0fe41074c13a.jpeg
+Detection,2025-06-23 17:45:43,Successfully saved processed image: http://localhost:3000/uploads/processed_de338e4c-32b4-4918-9032-0fe41074c13a.jpeg
+Detection,2025-06-23 17:45:43,Completed full Detectionion and processing workflow successfully
+Prediction,2025-06-23 17:45:43,Created prediction for user b47fb263-c4ca-4152-acba-da47a8355f2a
+ObjectPrediction,2025-06-23 17:45:43,Created ObjectPrediction for prediction 592cc91f-c969-4b47-a587-b873a1b128db
+Auth,2025-06-23 22:05:00,User afonsoliveira24@gmail.com logged out
+Auth,2025-06-23 22:05:00,User afonsoliveira24@gmail.com logged out
+Auth,2025-06-23 22:05:00,User afonsoliveira24@gmail.com logged out
+Detection,2025-06-23 22:08:23,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_84ae0ea0-e96d-46fc-8c53-cba2ec02ab2c.jpeg
+Detection,2025-06-23 22:08:23,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_84ae0ea0-e96d-46fc-8c53-cba2ec02ab2c.jpeg
+Detection,2025-06-23 22:08:23,Successfully uploaded image: http://localhost:3000/uploads/Detection_84ae0ea0-e96d-46fc-8c53-cba2ec02ab2c.jpeg
+Detection,2025-06-23 22:08:23,Successfully read 58193 bytes from file DeWatermark.ai_1750696288862.jpeg
+Detection,2025-06-23 22:08:23,Sending detection request to Roboflow: https://serverless.roboflow.com/garbage-classification-3/2?api_key=kKrV2TlFATeJEMDXdKLM
+Detection,2025-06-23 22:08:26,Roboflow detected 23 objects
+Detection,2025-06-23 22:08:26,Successfully detected 23 objects in image
+Detection,2025-06-23 22:08:26,Successfully processed image with bounding boxes
+Detection,2025-06-23 22:08:26,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\processed_776fd942-3ea9-4a78-ab0f-60abea24b6ef.jpeg
+Detection,2025-06-23 22:08:26,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\processed_776fd942-3ea9-4a78-ab0f-60abea24b6ef.jpeg
+Detection,2025-06-23 22:08:26,Successfully saved processed image: http://localhost:3000/uploads/processed_776fd942-3ea9-4a78-ab0f-60abea24b6ef.jpeg
+Detection,2025-06-23 22:08:26,Completed full Detectionion and processing workflow successfully
+Prediction,2025-06-23 22:08:26,Created prediction for user e56d8d0f-4a46-4181-9d08-327efa10020f
+ObjectPrediction,2025-06-23 22:08:26,Created ObjectPrediction for prediction c58e3239-a958-4ac5-961e-a30f51bd7073
+ObjectPrediction,2025-06-23 22:08:26,Created ObjectPrediction for prediction c58e3239-a958-4ac5-961e-a30f51bd7073
+ObjectPrediction,2025-06-23 22:08:26,Created ObjectPrediction for prediction c58e3239-a958-4ac5-961e-a30f51bd7073
+ObjectPrediction,2025-06-23 22:08:26,Created ObjectPrediction for prediction c58e3239-a958-4ac5-961e-a30f51bd7073
+ObjectPrediction,2025-06-23 22:08:26,Created ObjectPrediction for prediction c58e3239-a958-4ac5-961e-a30f51bd7073
+ObjectPrediction,2025-06-23 22:08:26,Created ObjectPrediction for prediction c58e3239-a958-4ac5-961e-a30f51bd7073
+ObjectPrediction,2025-06-23 22:08:26,Created ObjectPrediction for prediction c58e3239-a958-4ac5-961e-a30f51bd7073
+ObjectPrediction,2025-06-23 22:08:26,Created ObjectPrediction for prediction c58e3239-a958-4ac5-961e-a30f51bd7073
+ObjectPrediction,2025-06-23 22:08:26,Created ObjectPrediction for prediction c58e3239-a958-4ac5-961e-a30f51bd7073
+ObjectPrediction,2025-06-23 22:08:26,Created ObjectPrediction for prediction c58e3239-a958-4ac5-961e-a30f51bd7073
+ObjectPrediction,2025-06-23 22:08:26,Created ObjectPrediction for prediction c58e3239-a958-4ac5-961e-a30f51bd7073
+ObjectPrediction,2025-06-23 22:08:27,Created ObjectPrediction for prediction c58e3239-a958-4ac5-961e-a30f51bd7073
+ObjectPrediction,2025-06-23 22:08:27,Created ObjectPrediction for prediction c58e3239-a958-4ac5-961e-a30f51bd7073
+ObjectPrediction,2025-06-23 22:08:27,Created ObjectPrediction for prediction c58e3239-a958-4ac5-961e-a30f51bd7073
+ObjectPrediction,2025-06-23 22:08:27,Created ObjectPrediction for prediction c58e3239-a958-4ac5-961e-a30f51bd7073
+ObjectPrediction,2025-06-23 22:08:27,Created ObjectPrediction for prediction c58e3239-a958-4ac5-961e-a30f51bd7073
+ObjectPrediction,2025-06-23 22:08:27,Created ObjectPrediction for prediction c58e3239-a958-4ac5-961e-a30f51bd7073
+ObjectPrediction,2025-06-23 22:08:27,Created ObjectPrediction for prediction c58e3239-a958-4ac5-961e-a30f51bd7073
+ObjectPrediction,2025-06-23 22:08:27,Created ObjectPrediction for prediction c58e3239-a958-4ac5-961e-a30f51bd7073
+ObjectPrediction,2025-06-23 22:08:27,Created ObjectPrediction for prediction c58e3239-a958-4ac5-961e-a30f51bd7073
+ObjectPrediction,2025-06-23 22:08:27,Created ObjectPrediction for prediction c58e3239-a958-4ac5-961e-a30f51bd7073
+ObjectPrediction,2025-06-23 22:08:27,Created ObjectPrediction for prediction c58e3239-a958-4ac5-961e-a30f51bd7073
+ObjectPrediction,2025-06-23 22:08:27,Created ObjectPrediction for prediction c58e3239-a958-4ac5-961e-a30f51bd7073
+Detection,2025-06-23 22:08:39,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_d7a9eefe-1efb-4fc3-b20e-682dd151ea11.png
+Detection,2025-06-23 22:08:39,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_d7a9eefe-1efb-4fc3-b20e-682dd151ea11.png
+Detection,2025-06-23 22:08:39,Successfully uploaded image: http://localhost:3000/uploads/Detection_d7a9eefe-1efb-4fc3-b20e-682dd151ea11.png
+Detection,2025-06-23 22:08:39,Successfully read 1635178 bytes from file amostras-de-lixo-isoladas-no-fundo-branco-79003231-Photoroom.png
+Detection,2025-06-23 22:08:39,Sending detection request to Roboflow: https://serverless.roboflow.com/garbage-classification-3/2?api_key=kKrV2TlFATeJEMDXdKLM
+Detection,2025-06-23 22:08:43,Roboflow detected 56 objects
+Detection,2025-06-23 22:08:43,Successfully detected 56 objects in image
+Detection,2025-06-23 22:08:43,Successfully processed image with bounding boxes
+Detection,2025-06-23 22:08:43,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\processed_25d93060-39d2-49fb-9e13-8321046bd5f7.png
+Detection,2025-06-23 22:08:43,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\processed_25d93060-39d2-49fb-9e13-8321046bd5f7.png
+Detection,2025-06-23 22:08:43,Successfully saved processed image: http://localhost:3000/uploads/processed_25d93060-39d2-49fb-9e13-8321046bd5f7.png
+Detection,2025-06-23 22:08:43,Completed full Detectionion and processing workflow successfully
+Prediction,2025-06-23 22:08:43,Created prediction for user e56d8d0f-4a46-4181-9d08-327efa10020f
+ObjectPrediction,2025-06-23 22:08:43,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:43,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:43,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:43,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:43,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:43,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:43,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:43,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:43,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:43,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:43,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:43,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:43,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:43,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:43,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:43,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+ObjectPrediction,2025-06-23 22:08:44,Created ObjectPrediction for prediction 13de3180-ab69-48df-8c42-cded56f2e238
+Detection,2025-06-23 22:08:56,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_75deff34-e5fe-4532-b751-45ba812618fd.jpg
+Detection,2025-06-23 22:08:56,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_75deff34-e5fe-4532-b751-45ba812618fd.jpg
+Detection,2025-06-23 22:08:56,Successfully uploaded image: http://localhost:3000/uploads/Detection_75deff34-e5fe-4532-b751-45ba812618fd.jpg
+Detection,2025-06-23 22:08:56,Successfully read 59009 bytes from file 360_F_60515538_IPp4oVRHxEB52t9VqabfIDfjeZoXIqtR.jpg
+Detection,2025-06-23 22:08:56,Sending detection request to Roboflow: https://serverless.roboflow.com/garbage-classification-3/2?api_key=kKrV2TlFATeJEMDXdKLM
+Detection,2025-06-23 22:08:57,Roboflow detected 11 objects
+Detection,2025-06-23 22:08:57,Successfully detected 11 objects in image
+Detection,2025-06-23 22:08:57,Successfully processed image with bounding boxes
+Detection,2025-06-23 22:08:57,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\processed_70eaf7c9-a94d-4c61-9e85-57f8d38a9798.jpg
+Detection,2025-06-23 22:08:57,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\processed_70eaf7c9-a94d-4c61-9e85-57f8d38a9798.jpg
+Detection,2025-06-23 22:08:57,Successfully saved processed image: http://localhost:3000/uploads/processed_70eaf7c9-a94d-4c61-9e85-57f8d38a9798.jpg
+Detection,2025-06-23 22:08:57,Completed full Detectionion and processing workflow successfully
+Prediction,2025-06-23 22:08:57,Created prediction for user e56d8d0f-4a46-4181-9d08-327efa10020f
+ObjectPrediction,2025-06-23 22:08:57,Created ObjectPrediction for prediction 4f3db5ed-19cd-492e-afab-395ca9525875
+ObjectPrediction,2025-06-23 22:08:57,Created ObjectPrediction for prediction 4f3db5ed-19cd-492e-afab-395ca9525875
+ObjectPrediction,2025-06-23 22:08:57,Created ObjectPrediction for prediction 4f3db5ed-19cd-492e-afab-395ca9525875
+ObjectPrediction,2025-06-23 22:08:57,Created ObjectPrediction for prediction 4f3db5ed-19cd-492e-afab-395ca9525875
+ObjectPrediction,2025-06-23 22:08:57,Created ObjectPrediction for prediction 4f3db5ed-19cd-492e-afab-395ca9525875
+ObjectPrediction,2025-06-23 22:08:57,Created ObjectPrediction for prediction 4f3db5ed-19cd-492e-afab-395ca9525875
+ObjectPrediction,2025-06-23 22:08:57,Created ObjectPrediction for prediction 4f3db5ed-19cd-492e-afab-395ca9525875
+ObjectPrediction,2025-06-23 22:08:57,Created ObjectPrediction for prediction 4f3db5ed-19cd-492e-afab-395ca9525875
+ObjectPrediction,2025-06-23 22:08:57,Created ObjectPrediction for prediction 4f3db5ed-19cd-492e-afab-395ca9525875
+ObjectPrediction,2025-06-23 22:08:57,Created ObjectPrediction for prediction 4f3db5ed-19cd-492e-afab-395ca9525875
+ObjectPrediction,2025-06-23 22:08:57,Created ObjectPrediction for prediction 4f3db5ed-19cd-492e-afab-395ca9525875
+Detection,2025-06-23 22:09:03,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_2ad1cbef-83f1-4773-86fb-4dd7b4b597d9.jpg
+Detection,2025-06-23 22:09:03,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_2ad1cbef-83f1-4773-86fb-4dd7b4b597d9.jpg
+Detection,2025-06-23 22:09:03,Successfully uploaded image: http://localhost:3000/uploads/Detection_2ad1cbef-83f1-4773-86fb-4dd7b4b597d9.jpg
+Detection,2025-06-23 22:09:03,Successfully read 21713 bytes from file metal186_jpg.rf.61e81e05dcbc43a0bf882bdba7d8e216.jpg
+Detection,2025-06-23 22:09:03,Sending detection request to Roboflow: https://serverless.roboflow.com/garbage-classification-3/2?api_key=kKrV2TlFATeJEMDXdKLM
+Detection,2025-06-23 22:09:05,Roboflow detected 6 objects
+Detection,2025-06-23 22:09:05,Successfully detected 6 objects in image
+Detection,2025-06-23 22:09:05,Successfully processed image with bounding boxes
+Detection,2025-06-23 22:09:05,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\processed_20c995bf-356c-4da8-af66-67c98e5a0dcf.jpg
+Detection,2025-06-23 22:09:05,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\processed_20c995bf-356c-4da8-af66-67c98e5a0dcf.jpg
+Detection,2025-06-23 22:09:05,Successfully saved processed image: http://localhost:3000/uploads/processed_20c995bf-356c-4da8-af66-67c98e5a0dcf.jpg
+Detection,2025-06-23 22:09:05,Completed full Detectionion and processing workflow successfully
+Prediction,2025-06-23 22:09:05,Created prediction for user e56d8d0f-4a46-4181-9d08-327efa10020f
+ObjectPrediction,2025-06-23 22:09:05,Created ObjectPrediction for prediction 8289c9c0-09fe-43ec-a531-1bb00fab2980
+ObjectPrediction,2025-06-23 22:09:05,Created ObjectPrediction for prediction 8289c9c0-09fe-43ec-a531-1bb00fab2980
+ObjectPrediction,2025-06-23 22:09:05,Created ObjectPrediction for prediction 8289c9c0-09fe-43ec-a531-1bb00fab2980
+ObjectPrediction,2025-06-23 22:09:05,Created ObjectPrediction for prediction 8289c9c0-09fe-43ec-a531-1bb00fab2980
+ObjectPrediction,2025-06-23 22:09:06,Created ObjectPrediction for prediction 8289c9c0-09fe-43ec-a531-1bb00fab2980
+ObjectPrediction,2025-06-23 22:09:06,Created ObjectPrediction for prediction 8289c9c0-09fe-43ec-a531-1bb00fab2980
+Detection,2025-06-23 22:09:11,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_5de9ea65-a2f0-4c94-bcb0-8ed4d4deeb75.jpeg
+Detection,2025-06-23 22:09:11,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_5de9ea65-a2f0-4c94-bcb0-8ed4d4deeb75.jpeg
+Detection,2025-06-23 22:09:11,Successfully uploaded image: http://localhost:3000/uploads/Detection_5de9ea65-a2f0-4c94-bcb0-8ed4d4deeb75.jpeg
+Detection,2025-06-23 22:09:11,Successfully read 58193 bytes from file DeWatermark.ai_1750696288862.jpeg
+Detection,2025-06-23 22:09:11,Sending detection request to Roboflow: https://serverless.roboflow.com/garbage-classification-3/2?api_key=kKrV2TlFATeJEMDXdKLM
+Detection,2025-06-23 22:09:12,Roboflow detected 23 objects
+Detection,2025-06-23 22:09:12,Successfully detected 23 objects in image
+Detection,2025-06-23 22:09:12,Successfully processed image with bounding boxes
+Detection,2025-06-23 22:09:12,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\processed_90cebeea-339d-4fac-a345-d9e23c8aa8dd.jpeg
+Detection,2025-06-23 22:09:12,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\processed_90cebeea-339d-4fac-a345-d9e23c8aa8dd.jpeg
+Detection,2025-06-23 22:09:12,Successfully saved processed image: http://localhost:3000/uploads/processed_90cebeea-339d-4fac-a345-d9e23c8aa8dd.jpeg
+Detection,2025-06-23 22:09:12,Completed full Detectionion and processing workflow successfully
+Prediction,2025-06-23 22:09:12,Created prediction for user e56d8d0f-4a46-4181-9d08-327efa10020f
+ObjectPrediction,2025-06-23 22:09:12,Created ObjectPrediction for prediction 98e6b92d-f443-453c-aff8-f3547a8ff3d2
+ObjectPrediction,2025-06-23 22:09:12,Created ObjectPrediction for prediction 98e6b92d-f443-453c-aff8-f3547a8ff3d2
+ObjectPrediction,2025-06-23 22:09:12,Created ObjectPrediction for prediction 98e6b92d-f443-453c-aff8-f3547a8ff3d2
+ObjectPrediction,2025-06-23 22:09:12,Created ObjectPrediction for prediction 98e6b92d-f443-453c-aff8-f3547a8ff3d2
+ObjectPrediction,2025-06-23 22:09:12,Created ObjectPrediction for prediction 98e6b92d-f443-453c-aff8-f3547a8ff3d2
+ObjectPrediction,2025-06-23 22:09:12,Created ObjectPrediction for prediction 98e6b92d-f443-453c-aff8-f3547a8ff3d2
+ObjectPrediction,2025-06-23 22:09:12,Created ObjectPrediction for prediction 98e6b92d-f443-453c-aff8-f3547a8ff3d2
+ObjectPrediction,2025-06-23 22:09:12,Created ObjectPrediction for prediction 98e6b92d-f443-453c-aff8-f3547a8ff3d2
+ObjectPrediction,2025-06-23 22:09:12,Created ObjectPrediction for prediction 98e6b92d-f443-453c-aff8-f3547a8ff3d2
+ObjectPrediction,2025-06-23 22:09:12,Created ObjectPrediction for prediction 98e6b92d-f443-453c-aff8-f3547a8ff3d2
+ObjectPrediction,2025-06-23 22:09:12,Created ObjectPrediction for prediction 98e6b92d-f443-453c-aff8-f3547a8ff3d2
+ObjectPrediction,2025-06-23 22:09:12,Created ObjectPrediction for prediction 98e6b92d-f443-453c-aff8-f3547a8ff3d2
+ObjectPrediction,2025-06-23 22:09:12,Created ObjectPrediction for prediction 98e6b92d-f443-453c-aff8-f3547a8ff3d2
+ObjectPrediction,2025-06-23 22:09:12,Created ObjectPrediction for prediction 98e6b92d-f443-453c-aff8-f3547a8ff3d2
+ObjectPrediction,2025-06-23 22:09:12,Created ObjectPrediction for prediction 98e6b92d-f443-453c-aff8-f3547a8ff3d2
+ObjectPrediction,2025-06-23 22:09:12,Created ObjectPrediction for prediction 98e6b92d-f443-453c-aff8-f3547a8ff3d2
+ObjectPrediction,2025-06-23 22:09:12,Created ObjectPrediction for prediction 98e6b92d-f443-453c-aff8-f3547a8ff3d2
+ObjectPrediction,2025-06-23 22:09:12,Created ObjectPrediction for prediction 98e6b92d-f443-453c-aff8-f3547a8ff3d2
+ObjectPrediction,2025-06-23 22:09:12,Created ObjectPrediction for prediction 98e6b92d-f443-453c-aff8-f3547a8ff3d2
+ObjectPrediction,2025-06-23 22:09:12,Created ObjectPrediction for prediction 98e6b92d-f443-453c-aff8-f3547a8ff3d2
+ObjectPrediction,2025-06-23 22:09:12,Created ObjectPrediction for prediction 98e6b92d-f443-453c-aff8-f3547a8ff3d2
+ObjectPrediction,2025-06-23 22:09:12,Created ObjectPrediction for prediction 98e6b92d-f443-453c-aff8-f3547a8ff3d2
+ObjectPrediction,2025-06-23 22:09:12,Created ObjectPrediction for prediction 98e6b92d-f443-453c-aff8-f3547a8ff3d2
+Detection,2025-06-23 22:09:25,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_89ed7b5b-d9d6-4e9c-b947-c2ea515aed8f.jpg
+Detection,2025-06-23 22:09:25,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_89ed7b5b-d9d6-4e9c-b947-c2ea515aed8f.jpg
+Detection,2025-06-23 22:09:25,Successfully uploaded image: http://localhost:3000/uploads/Detection_89ed7b5b-d9d6-4e9c-b947-c2ea515aed8f.jpg
+Detection,2025-06-23 22:09:25,Successfully read 51552 bytes from file 9eb1029540e413dc55c676bdbb49f38f.jpg
+Detection,2025-06-23 22:09:25,Sending detection request to Roboflow: https://serverless.roboflow.com/garbage-classification-3/2?api_key=kKrV2TlFATeJEMDXdKLM
+Detection,2025-06-23 22:09:27,Roboflow detected 26 objects
+Detection,2025-06-23 22:09:27,Successfully detected 26 objects in image
+Detection,2025-06-23 22:09:27,Successfully processed image with bounding boxes
+Detection,2025-06-23 22:09:27,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\processed_a6f01fd0-49ae-402f-8ecc-e18915e7bd4e.jpg
+Detection,2025-06-23 22:09:28,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\processed_a6f01fd0-49ae-402f-8ecc-e18915e7bd4e.jpg
+Detection,2025-06-23 22:09:28,Successfully saved processed image: http://localhost:3000/uploads/processed_a6f01fd0-49ae-402f-8ecc-e18915e7bd4e.jpg
+Detection,2025-06-23 22:09:28,Completed full Detectionion and processing workflow successfully
+Prediction,2025-06-23 22:09:28,Created prediction for user e56d8d0f-4a46-4181-9d08-327efa10020f
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+ObjectPrediction,2025-06-23 22:09:28,Created ObjectPrediction for prediction f95bf443-dd50-4406-9e00-ed5ee1472616
+Auth,2025-06-23 22:11:39,User afonsoliveira004@gmail.com logged out
+Auth,2025-06-23 22:11:39,User afonsoliveira004@gmail.com logged out
+Auth,2025-06-23 22:11:39,User afonsoliveira004@gmail.com logged out
+Detection,2025-06-23 22:13:00,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_af31f93a-d55a-40d4-8756-d45ecd0c7563.jpg
+Detection,2025-06-23 22:13:00,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_af31f93a-d55a-40d4-8756-d45ecd0c7563.jpg
+Detection,2025-06-23 22:13:00,Successfully uploaded image: http://localhost:3000/uploads/Detection_af31f93a-d55a-40d4-8756-d45ecd0c7563.jpg
+Detection,2025-06-23 22:13:00,Successfully read 59009 bytes from file 360_F_60515538_IPp4oVRHxEB52t9VqabfIDfjeZoXIqtR.jpg
+Detection,2025-06-23 22:13:00,Sending detection request to Roboflow: https://serverless.roboflow.com/garbage-classification-3/2?api_key=kKrV2TlFATeJEMDXdKLM
+Detection,2025-06-23 22:13:03,Roboflow detected 11 objects
+Detection,2025-06-23 22:13:03,Successfully detected 11 objects in image
+Detection,2025-06-23 22:13:03,Successfully processed image with bounding boxes
+Detection,2025-06-23 22:13:03,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\processed_5b30f1f3-4925-4562-8b16-4b931de68698.jpg
+Detection,2025-06-23 22:13:03,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\processed_5b30f1f3-4925-4562-8b16-4b931de68698.jpg
+Detection,2025-06-23 22:13:03,Successfully saved processed image: http://localhost:3000/uploads/processed_5b30f1f3-4925-4562-8b16-4b931de68698.jpg
+Detection,2025-06-23 22:13:03,Completed full Detectionion and processing workflow successfully
+Prediction,2025-06-23 22:13:03,Created prediction for user e56d8d0f-4a46-4181-9d08-327efa10020f
+ObjectPrediction,2025-06-23 22:13:04,Created ObjectPrediction for prediction bb441984-3de4-489f-b3d4-24f4c23b846c
+ObjectPrediction,2025-06-23 22:13:04,Created ObjectPrediction for prediction bb441984-3de4-489f-b3d4-24f4c23b846c
+ObjectPrediction,2025-06-23 22:13:04,Created ObjectPrediction for prediction bb441984-3de4-489f-b3d4-24f4c23b846c
+ObjectPrediction,2025-06-23 22:13:04,Created ObjectPrediction for prediction bb441984-3de4-489f-b3d4-24f4c23b846c
+ObjectPrediction,2025-06-23 22:13:04,Created ObjectPrediction for prediction bb441984-3de4-489f-b3d4-24f4c23b846c
+ObjectPrediction,2025-06-23 22:13:04,Created ObjectPrediction for prediction bb441984-3de4-489f-b3d4-24f4c23b846c
+ObjectPrediction,2025-06-23 22:13:04,Created ObjectPrediction for prediction bb441984-3de4-489f-b3d4-24f4c23b846c
+ObjectPrediction,2025-06-23 22:13:04,Created ObjectPrediction for prediction bb441984-3de4-489f-b3d4-24f4c23b846c
+ObjectPrediction,2025-06-23 22:13:04,Created ObjectPrediction for prediction bb441984-3de4-489f-b3d4-24f4c23b846c
+ObjectPrediction,2025-06-23 22:13:04,Created ObjectPrediction for prediction bb441984-3de4-489f-b3d4-24f4c23b846c
+ObjectPrediction,2025-06-23 22:13:04,Created ObjectPrediction for prediction bb441984-3de4-489f-b3d4-24f4c23b846c
+Auth,2025-06-23 22:14:28,User afonsoliveira004@gmail.com logged out
+Auth,2025-06-23 22:14:28,User afonsoliveira004@gmail.com logged out
+Detection,2025-06-23 22:15:39,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_39383b2b-7d85-479f-b9ed-74cfba9bf1e6.jpg
+Detection,2025-06-23 22:15:39,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_39383b2b-7d85-479f-b9ed-74cfba9bf1e6.jpg
+Detection,2025-06-23 22:15:39,Successfully uploaded image: http://localhost:3000/uploads/Detection_39383b2b-7d85-479f-b9ed-74cfba9bf1e6.jpg
+Detection,2025-06-23 22:15:39,Successfully read 59009 bytes from file 360_F_60515538_IPp4oVRHxEB52t9VqabfIDfjeZoXIqtR.jpg
+Detection,2025-06-23 22:15:39,Sending detection request to Roboflow: https://serverless.roboflow.com/garbage-classification-3/2?api_key=kKrV2TlFATeJEMDXdKLM
+Detection,2025-06-23 22:15:42,Roboflow detected 11 objects
+Detection,2025-06-23 22:15:42,Successfully detected 11 objects in image
+Detection,2025-06-23 22:15:42,Successfully processed image with bounding boxes
+Detection,2025-06-23 22:15:42,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\processed_5f8c5e79-b021-403c-a790-1cfcb6fda29e.jpg
+Detection,2025-06-23 22:15:42,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\processed_5f8c5e79-b021-403c-a790-1cfcb6fda29e.jpg
+Detection,2025-06-23 22:15:42,Successfully saved processed image: http://localhost:3000/uploads/processed_5f8c5e79-b021-403c-a790-1cfcb6fda29e.jpg
+Detection,2025-06-23 22:15:42,Completed full Detectionion and processing workflow successfully
+Prediction,2025-06-23 22:15:42,Created prediction for user e56d8d0f-4a46-4181-9d08-327efa10020f
+ObjectPrediction,2025-06-23 22:15:42,Created ObjectPrediction for prediction 2cf8aa0f-6cae-4364-9219-0e554e626ac3
+ObjectPrediction,2025-06-23 22:15:42,Created ObjectPrediction for prediction 2cf8aa0f-6cae-4364-9219-0e554e626ac3
+ObjectPrediction,2025-06-23 22:15:42,Created ObjectPrediction for prediction 2cf8aa0f-6cae-4364-9219-0e554e626ac3
+ObjectPrediction,2025-06-23 22:15:42,Created ObjectPrediction for prediction 2cf8aa0f-6cae-4364-9219-0e554e626ac3
+ObjectPrediction,2025-06-23 22:15:42,Created ObjectPrediction for prediction 2cf8aa0f-6cae-4364-9219-0e554e626ac3
+ObjectPrediction,2025-06-23 22:15:42,Created ObjectPrediction for prediction 2cf8aa0f-6cae-4364-9219-0e554e626ac3
+ObjectPrediction,2025-06-23 22:15:42,Created ObjectPrediction for prediction 2cf8aa0f-6cae-4364-9219-0e554e626ac3
+ObjectPrediction,2025-06-23 22:15:43,Created ObjectPrediction for prediction 2cf8aa0f-6cae-4364-9219-0e554e626ac3
+ObjectPrediction,2025-06-23 22:15:43,Created ObjectPrediction for prediction 2cf8aa0f-6cae-4364-9219-0e554e626ac3
+ObjectPrediction,2025-06-23 22:15:43,Created ObjectPrediction for prediction 2cf8aa0f-6cae-4364-9219-0e554e626ac3
+ObjectPrediction,2025-06-23 22:15:43,Created ObjectPrediction for prediction 2cf8aa0f-6cae-4364-9219-0e554e626ac3
+Auth,2025-06-23 22:19:39,User afonsoliveira004@gmail.com logged out
+Auth,2025-06-23 22:19:39,User afonsoliveira004@gmail.com logged out
+Auth,2025-06-23 22:19:39,User afonsoliveira004@gmail.com logged out
+Detection,2025-06-23 22:20:49,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_bad7d7e3-b197-44c3-89b0-e70a84c9b3fb.jpg
+Detection,2025-06-23 22:20:49,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_bad7d7e3-b197-44c3-89b0-e70a84c9b3fb.jpg
+Detection,2025-06-23 22:20:49,Successfully uploaded image: http://localhost:3000/uploads/Detection_bad7d7e3-b197-44c3-89b0-e70a84c9b3fb.jpg
+Detection,2025-06-23 22:20:49,Successfully read 59009 bytes from file 360_F_60515538_IPp4oVRHxEB52t9VqabfIDfjeZoXIqtR.jpg
+Detection,2025-06-23 22:20:49,Sending detection request to Roboflow: https://serverless.roboflow.com/garbage-classification-3/2?api_key=kKrV2TlFATeJEMDXdKLM
+Detection,2025-06-23 22:20:51,Roboflow detected 11 objects
+Detection,2025-06-23 22:20:51,Successfully detected 11 objects in image
+Detection,2025-06-23 22:20:51,Successfully processed image with bounding boxes
+Detection,2025-06-23 22:20:51,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\processed_e6871f13-d448-4983-8456-a44bebf4e223.jpg
+Detection,2025-06-23 22:20:51,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\processed_e6871f13-d448-4983-8456-a44bebf4e223.jpg
+Detection,2025-06-23 22:20:51,Successfully saved processed image: http://localhost:3000/uploads/processed_e6871f13-d448-4983-8456-a44bebf4e223.jpg
+Detection,2025-06-23 22:20:51,Completed full Detectionion and processing workflow successfully
+Prediction,2025-06-23 22:20:51,Created prediction for user e56d8d0f-4a46-4181-9d08-327efa10020f
+ObjectPrediction,2025-06-23 22:20:51,Created ObjectPrediction for prediction e3b8439f-96a6-4f14-9e61-e37b654b2e17
+ObjectPrediction,2025-06-23 22:20:51,Created ObjectPrediction for prediction e3b8439f-96a6-4f14-9e61-e37b654b2e17
+ObjectPrediction,2025-06-23 22:20:51,Created ObjectPrediction for prediction e3b8439f-96a6-4f14-9e61-e37b654b2e17
+ObjectPrediction,2025-06-23 22:20:51,Created ObjectPrediction for prediction e3b8439f-96a6-4f14-9e61-e37b654b2e17
+ObjectPrediction,2025-06-23 22:20:51,Created ObjectPrediction for prediction e3b8439f-96a6-4f14-9e61-e37b654b2e17
+ObjectPrediction,2025-06-23 22:20:51,Created ObjectPrediction for prediction e3b8439f-96a6-4f14-9e61-e37b654b2e17
+ObjectPrediction,2025-06-23 22:20:51,Created ObjectPrediction for prediction e3b8439f-96a6-4f14-9e61-e37b654b2e17
+ObjectPrediction,2025-06-23 22:20:51,Created ObjectPrediction for prediction e3b8439f-96a6-4f14-9e61-e37b654b2e17
+ObjectPrediction,2025-06-23 22:20:51,Created ObjectPrediction for prediction e3b8439f-96a6-4f14-9e61-e37b654b2e17
+ObjectPrediction,2025-06-23 22:20:51,Created ObjectPrediction for prediction e3b8439f-96a6-4f14-9e61-e37b654b2e17
+ObjectPrediction,2025-06-23 22:20:51,Created ObjectPrediction for prediction e3b8439f-96a6-4f14-9e61-e37b654b2e17
+Auth,2025-06-23 22:25:46,User afonsoliveira004@gmail.com logged out
+Auth,2025-06-23 22:25:46,User afonsoliveira004@gmail.com logged out
+Auth,2025-06-23 22:25:46,User afonsoliveira004@gmail.com logged out
+Detection,2025-06-23 22:29:35,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_e21170d6-b055-48f4-b1a5-48c409e0287f.jpg
+Detection,2025-06-23 22:29:35,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\Detection_e21170d6-b055-48f4-b1a5-48c409e0287f.jpg
+Detection,2025-06-23 22:29:35,Successfully uploaded image: http://localhost:3000/uploads/Detection_e21170d6-b055-48f4-b1a5-48c409e0287f.jpg
+Detection,2025-06-23 22:29:35,Successfully read 59009 bytes from file 360_F_60515538_IPp4oVRHxEB52t9VqabfIDfjeZoXIqtR.jpg
+Detection,2025-06-23 22:29:35,Sending detection request to Roboflow: https://serverless.roboflow.com/garbage-classification-3/2?api_key=kKrV2TlFATeJEMDXdKLM
+Detection,2025-06-23 22:29:39,Roboflow detected 11 objects
+Detection,2025-06-23 22:29:39,Successfully detected 11 objects in image
+Detection,2025-06-23 22:29:39,Successfully processed image with bounding boxes
+Detection,2025-06-23 22:29:39,Attempting to save image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\processed_52280301-f88b-4d8e-8a02-f8a7f854ea86.jpg
+Detection,2025-06-23 22:29:39,Successfully saved image bytes to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\wwwroot\uploads\processed_52280301-f88b-4d8e-8a02-f8a7f854ea86.jpg
+Detection,2025-06-23 22:29:39,Successfully saved processed image: http://localhost:3000/uploads/processed_52280301-f88b-4d8e-8a02-f8a7f854ea86.jpg
+Detection,2025-06-23 22:29:39,Completed full Detectionion and processing workflow successfully
+Prediction,2025-06-23 22:29:39,Created prediction for user e56d8d0f-4a46-4181-9d08-327efa10020f
+ObjectPrediction,2025-06-23 22:29:39,Created ObjectPrediction for prediction 66fa8ef3-b3f7-4b44-87c0-b5853fbe2502
+ObjectPrediction,2025-06-23 22:29:39,Created ObjectPrediction for prediction 66fa8ef3-b3f7-4b44-87c0-b5853fbe2502
+ObjectPrediction,2025-06-23 22:29:39,Created ObjectPrediction for prediction 66fa8ef3-b3f7-4b44-87c0-b5853fbe2502
+ObjectPrediction,2025-06-23 22:29:39,Created ObjectPrediction for prediction 66fa8ef3-b3f7-4b44-87c0-b5853fbe2502
+ObjectPrediction,2025-06-23 22:29:39,Created ObjectPrediction for prediction 66fa8ef3-b3f7-4b44-87c0-b5853fbe2502
+ObjectPrediction,2025-06-23 22:29:39,Created ObjectPrediction for prediction 66fa8ef3-b3f7-4b44-87c0-b5853fbe2502
+ObjectPrediction,2025-06-23 22:29:39,Created ObjectPrediction for prediction 66fa8ef3-b3f7-4b44-87c0-b5853fbe2502
+ObjectPrediction,2025-06-23 22:29:39,Created ObjectPrediction for prediction 66fa8ef3-b3f7-4b44-87c0-b5853fbe2502
+ObjectPrediction,2025-06-23 22:29:39,Created ObjectPrediction for prediction 66fa8ef3-b3f7-4b44-87c0-b5853fbe2502
+ObjectPrediction,2025-06-23 22:29:39,Created ObjectPrediction for prediction 66fa8ef3-b3f7-4b44-87c0-b5853fbe2502
+ObjectPrediction,2025-06-23 22:29:39,Created ObjectPrediction for prediction 66fa8ef3-b3f7-4b44-87c0-b5853fbe2502
+Auth,2025-06-23 22:34:58,User afonsoliveira004@gmail.com logged out
+Auth,2025-06-23 22:34:58,User afonsoliveira004@gmail.com logged out
+Auth,2025-06-23 22:34:58,User afonsoliveira004@gmail.com logged out
+Auth,2025-06-23 22:37:50,User afonsoliveira24@gmail.com logged out
+Auth,2025-06-23 22:37:50,User afonsoliveira24@gmail.com logged out
+Auth,2025-06-23 22:38:47,User afonsoliveira24@gmail.com logged out
+Auth,2025-06-23 22:38:47,User afonsoliveira24@gmail.com logged out
+Auth,2025-06-23 22:38:47,User afonsoliveira24@gmail.com logged out
+RoboflowModel,2025-06-23 22:45:56,Attempting to create model: teste
+Info,2025-06-23 22:45:56,target directory: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\PythonBE\models
+Info,2025-06-23 22:45:56,Saving model file to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\PythonBE\models\b09ef88c-0bb4-4464-8120-02bf24d7e9e1.pt
+Info,2025-06-23 22:45:56,Successfully saved model file: b09ef88c-0bb4-4464-8120-02bf24d7e9e1.pt
+Info,2025-06-23 22:45:56,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-23 22:45:58,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-23 22:45:58,Successfully added model to repository with ID: 6b25b8e9-8b5b-4130-9303-7fff12fb069e
+RoboflowModel,2025-06-23 22:45:58,Created model 'teste' with local path 'C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\PythonBE\models\b09ef88c-0bb4-4464-8120-02bf24d7e9e1.pt'
+RoboflowModel,2025-06-23 22:46:37,Deactivated model with name teste
+Info,2025-06-23 22:46:41,Deleted local model file: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\PythonBE\models\b09ef88c-0bb4-4464-8120-02bf24d7e9e1.pt
+RoboflowModel,2025-06-23 22:46:41,Deleting model with name teste and ID 6b25b8e9-8b5b-4130-9303-7fff12fb069e
+RoboflowModel,2025-06-23 22:46:41,Successfully deleted model from repository.
+Auth,2025-06-23 22:51:37,User afonsoliveira24@gmail.com logged out
+Auth,2025-06-23 22:51:37,User afonsoliveira24@gmail.com logged out
+Auth,2025-06-23 22:53:22,User afonsoliveira24@gmail.com logged out
+Auth,2025-06-23 22:53:22,User afonsoliveira24@gmail.com logged out
+Auth,2025-06-23 22:53:22,User afonsoliveira24@gmail.com logged out
+RoboflowModel,2025-06-23 22:54:51,Attempting to create model: teste
+Info,2025-06-23 22:54:51,target directory: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\PythonBE\models
+Info,2025-06-23 22:54:51,Saving model file to: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\PythonBE\models\9377a501-b3fb-4c45-8ab1-63ebe3b3f551.pt
+Info,2025-06-23 22:54:51,Successfully saved model file: 9377a501-b3fb-4c45-8ab1-63ebe3b3f551.pt
+Info,2025-06-23 22:54:51,Fetching model info from Roboflow: https://api.roboflow.com/material-identification/garbage-classification-3/2
+Info,2025-06-23 22:54:52,Successfully fetched model info from Roboflow.
+RoboflowModel,2025-06-23 22:54:52,Successfully added model to repository with ID: 201baa5a-376a-4eba-a13a-728a02ea701c
+RoboflowModel,2025-06-23 22:54:52,Created model 'teste' with local path 'C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\PythonBE\models\9377a501-b3fb-4c45-8ab1-63ebe3b3f551.pt'
+RoboflowModel,2025-06-23 22:55:30,Deactivated model with name teste
+Info,2025-06-23 22:55:35,Deleted local model file: C:\Users\afons\Documents\Work\PESTI\WasteVisionWeb\WasteVisionWebBE\PythonBE\models\9377a501-b3fb-4c45-8ab1-63ebe3b3f551.pt
+RoboflowModel,2025-06-23 22:55:35,Deleting model with name teste and ID 201baa5a-376a-4eba-a13a-728a02ea701c
+RoboflowModel,2025-06-23 22:55:35,Successfully deleted model from repository.
+Auth,2025-06-23 22:55:53,User afonsoliveira24@gmail.com logged out
+Auth,2025-06-23 22:55:53,User afonsoliveira24@gmail.com logged out
+Auth,2025-06-23 22:55:53,User afonsoliveira24@gmail.com logged out

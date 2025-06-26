@@ -125,7 +125,6 @@ namespace DDDSample1.Application.Services
                             new CreatingUserDto(email, username, roleUser.Id.ToString())
                         );
                            
-                        await _userService.ActivateUserAsync(newUser.Id.ToString());
 
 
 

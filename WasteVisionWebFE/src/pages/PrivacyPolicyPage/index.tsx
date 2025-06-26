@@ -74,7 +74,7 @@ export function PrivacyPolicyPage() {
               <ul className="list-disc pl-6 space-y-1">
                 <li>Use the relevant options in your account settings</li>
                 <li>
-                  Contact our Data Protection Officer at privacy@hospital.com
+                  Contact our Data Protection Officer at privacy@WasteVision.com
                 </li>
                 <li>Submit a written request to our administrative office</li>
               </ul>
