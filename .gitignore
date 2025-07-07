@@ -1,0 +1,73 @@
+# .NET & C# build artifacts
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+env/
+venv/
+ENV/
+.venv/
+.Python
+
+# VSCode & IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Node/React/Vite
+node_modules/
+dist/
+build/
+*.log
+*.tsbuildinfo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment & secrets
+.env
+.env.*
+*.secret
+secrets.json
+
+# Frontend build
+WasteVisionWebFE/dist/
+WasteVisionWebFE/node_modules/
+
+# Python uploads and models
+WasteVisionWebBE/PythonBE/uploads/
+WasteVisionWebBE/PythonBE/models/
+
+# Backend static uploads
+WasteVisionWebBE/wwwroot/uploads/
+
+# Backend build
+WasteVisionWebBE/bin/
+WasteVisionWebBE/obj/
+
+# Test results
+TestResults/
+coverage/
+*.coverage
+*.lcov
+
+# Database & Docker
+*.db
+docker-compose.override.yml
+
+# Misc
+*.swp
+*.swo
+*.bak
+
+WasteVisionWebBE/Migrations/
