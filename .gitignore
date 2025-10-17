@@ -71,6 +71,7 @@ docker-compose.override.yml
 *.bak
 
 WasteVisionWebBE/Migrations/
+<<<<<<< HEAD
 WasteVisionWebBE/mylogs.csv
 WasteVisionWebBE/bin/Debug/net8.0/DDDNetCore.dll
 WasteVisionWebBE/bin/Debug/net8.0/DDDNetCore.exe
@@ -376,3 +377,12 @@ WasteVisionWebFE/node_modules/.vite/deps/tailwind-merge.js
 WasteVisionWebFE/node_modules/.vite/deps/tailwind-merge.js.map
 WasteVisionWebFE/node_modules/.vite/deps/zod.js
 WasteVisionWebFE/node_modules/.vite/deps/zod.js.map
+=======
+WasteVisionWebBE/obj/Debug/net8.0/DDDNetCore.GeneratedMSBuildEditorConfig.editorconfig
+WasteVisionWebBE/obj/Debug/net8.0/DDDNetCore.assets.cache
+WasteVisionWebBE/obj/Debug/net8.0/DDDNetCore.AssemblyInfoInputs.cache
+WasteVisionWebBE/obj/Debug/net8.0/DDDNetCore.AssemblyInfo.cs
+WasteVisionWebBE/obj/project.nuget.cache
+WasteVisionWebBE/obj/project.assets.json
+WasteVisionWebBE/obj/DDDNetCore.csproj.nuget.dgspec.json
+>>>>>>> ec196111 (fix gitignore)
