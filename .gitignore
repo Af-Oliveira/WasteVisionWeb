@@ -71,3 +71,10 @@ docker-compose.override.yml
 *.bak
 
 WasteVisionWebBE/Migrations/
+WasteVisionWebBE/obj/Debug/net8.0/DDDNetCore.GeneratedMSBuildEditorConfig.editorconfig
+WasteVisionWebBE/obj/Debug/net8.0/DDDNetCore.assets.cache
+WasteVisionWebBE/obj/Debug/net8.0/DDDNetCore.AssemblyInfoInputs.cache
+WasteVisionWebBE/obj/Debug/net8.0/DDDNetCore.AssemblyInfo.cs
+WasteVisionWebBE/obj/project.nuget.cache
+WasteVisionWebBE/obj/project.assets.json
+WasteVisionWebBE/obj/DDDNetCore.csproj.nuget.dgspec.json

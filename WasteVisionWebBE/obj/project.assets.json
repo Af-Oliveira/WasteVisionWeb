@@ -7888,11 +7888,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\afons\\Documents\\Work\\PESTI\\WasteVisionWeb\\WasteVisionWebBE\\DDDNetCore.csproj",
+      "projectUniqueName": "C:\\Users\\afons\\Documents\\Mestrado\\ArqSoft\\WasteVisionWeb\\WasteVisionWebBE\\DDDNetCore.csproj",
       "projectName": "DDDNetCore",
-      "projectPath": "C:\\Users\\afons\\Documents\\Work\\PESTI\\WasteVisionWeb\\WasteVisionWebBE\\DDDNetCore.csproj",
+      "projectPath": "C:\\Users\\afons\\Documents\\Mestrado\\ArqSoft\\WasteVisionWeb\\WasteVisionWebBE\\DDDNetCore.csproj",
       "packagesPath": "C:\\Users\\afons\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\afons\\Documents\\Work\\PESTI\\WasteVisionWeb\\WasteVisionWebBE\\obj\\",
+      "outputPath": "C:\\Users\\afons\\Documents\\Mestrado\\ArqSoft\\WasteVisionWeb\\WasteVisionWebBE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\afons\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -8027,5 +8027,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SixLabors.ImageSharp' 3.1.8 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-rxmq-m78w-7wmc",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
