@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\afons\\Documents\\Work\\PESTI\\WasteVisionWeb\\WasteVisionWebBE\\DDDNetCore.csproj": {}
+    "C:\\Users\\afons\\Documents\\Mestrado\\ArqSoft\\WasteVisionWeb\\WasteVisionWebBE\\DDDNetCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\afons\\Documents\\Work\\PESTI\\WasteVisionWeb\\WasteVisionWebBE\\DDDNetCore.csproj": {
+    "C:\\Users\\afons\\Documents\\Mestrado\\ArqSoft\\WasteVisionWeb\\WasteVisionWebBE\\DDDNetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\afons\\Documents\\Work\\PESTI\\WasteVisionWeb\\WasteVisionWebBE\\DDDNetCore.csproj",
+        "projectUniqueName": "C:\\Users\\afons\\Documents\\Mestrado\\ArqSoft\\WasteVisionWeb\\WasteVisionWebBE\\DDDNetCore.csproj",
         "projectName": "DDDNetCore",
-        "projectPath": "C:\\Users\\afons\\Documents\\Work\\PESTI\\WasteVisionWeb\\WasteVisionWebBE\\DDDNetCore.csproj",
+        "projectPath": "C:\\Users\\afons\\Documents\\Mestrado\\ArqSoft\\WasteVisionWeb\\WasteVisionWebBE\\DDDNetCore.csproj",
         "packagesPath": "C:\\Users\\afons\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\afons\\Documents\\Work\\PESTI\\WasteVisionWeb\\WasteVisionWebBE\\obj\\",
+        "outputPath": "C:\\Users\\afons\\Documents\\Mestrado\\ArqSoft\\WasteVisionWeb\\WasteVisionWebBE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\afons\\AppData\\Roaming\\NuGet\\NuGet.Config"
